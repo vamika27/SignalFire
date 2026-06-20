@@ -220,7 +220,7 @@ def topic_model(documents: pd.DataFrame, n_topics: int = 8, top_n: int = 10) -> 
     vectorizer = TfidfVectorizer(stop_words="english", ngram_range=(1, 2), max_features=8000, min_df=1)
     matrix = vectorizer.fit_transform(texts)
     topic_count = max(1, min(n_topics, matrix.shape[0], matrix.shape[1] - 1))
-    nmf = NMF(n_components=topic_count, init="nndsvda", random_state=42, max_iter=400)
+    nmf = NMF(n_components=topic_count, init="nndsvda", random_state=42, max_iter=1000, tol=1e-3)
     nmf.fit(matrix)
     terms = np.array(vectorizer.get_feature_names_out())
     rows = []
