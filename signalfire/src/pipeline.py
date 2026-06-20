@@ -39,6 +39,8 @@ def write_duckdb(tables: dict[str, pd.DataFrame], db_path: Path = PROCESSED_DIR 
     """Write analytics outputs to a DuckDB file."""
 
     db_path.parent.mkdir(parents=True, exist_ok=True)
+    if db_path.exists():
+        db_path.unlink()
     with duckdb.connect(str(db_path)) as con:
         for name, frame in tables.items():
             con.register(f"{name}_df", frame)

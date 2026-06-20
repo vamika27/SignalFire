@@ -160,8 +160,8 @@ The Streamlit application includes six executive-grade pages:
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt
-python -m spacy download en_core_web_sm
+python3 -m pip install -r requirements.txt
+python3 -m spacy download en_core_web_sm
 ```
 
 Set an SEC-compliant user agent:
@@ -173,13 +173,13 @@ export SIGNALFIRE_SEC_USER_AGENT="Your Name your.email@example.com"
 Run the real-data pipeline:
 
 ```bash
-python -m signalfire.src.pipeline --max-filings 2
+python3 -m signalfire.src.sec_pipeline --max-filings 2
 ```
 
 Optional transcript and layoffs inputs:
 
 ```bash
-python -m signalfire.src.pipeline \
+python3 -m signalfire.src.sec_pipeline \
   --max-filings 2 \
   --transcripts data/raw/motley_fool_transcripts.csv \
   --layoffs-source data/raw/layoffs.csv
