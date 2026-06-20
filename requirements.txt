@@ -1,0 +1,15 @@
+pandas
+numpy
+duckdb
+plotly
+streamlit
+scikit-learn
+spacy
+bertopic
+nltk
+sentence-transformers
+beautifulsoup4
+requests
+lxml
+pyarrow
+nbformat
