@@ -14,3 +14,11 @@ data/processed/*
 
 # Local Streamlit state
 .streamlit/
+
+# Frontend dependencies and build artifacts
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+frontend/*.tsbuildinfo

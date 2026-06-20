@@ -1,0 +1,1541 @@
+{
+  "rows": [
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2024,
+      "theme": "Artificial Intelligence",
+      "theme_intensity": 0.0179,
+      "company_count": 1,
+      "forward_looking_rate": 0.0024,
+      "investment_rate": 0.0019,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2024,
+      "theme": "Automation",
+      "theme_intensity": 0.0041,
+      "company_count": 1,
+      "forward_looking_rate": 0.0024,
+      "investment_rate": 0.0019,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2024,
+      "theme": "Cloud Transformation",
+      "theme_intensity": 0.0224,
+      "company_count": 1,
+      "forward_looking_rate": 0.0024,
+      "investment_rate": 0.0019,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2024,
+      "theme": "Cost Optimization",
+      "theme_intensity": 0.0286,
+      "company_count": 1,
+      "forward_looking_rate": 0.0024,
+      "investment_rate": 0.0019,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2024,
+      "theme": "Cybersecurity",
+      "theme_intensity": 0.0251,
+      "company_count": 1,
+      "forward_looking_rate": 0.0024,
+      "investment_rate": 0.0019,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2024,
+      "theme": "Digital Transformation",
+      "theme_intensity": 0.0393,
+      "company_count": 1,
+      "forward_looking_rate": 0.0024,
+      "investment_rate": 0.0019,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2024,
+      "theme": "Generative AI",
+      "theme_intensity": 0.0098,
+      "company_count": 1,
+      "forward_looking_rate": 0.0024,
+      "investment_rate": 0.0019,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2024,
+      "theme": "Supply Chain Resilience",
+      "theme_intensity": 0.012,
+      "company_count": 1,
+      "forward_looking_rate": 0.0024,
+      "investment_rate": 0.0019,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2024,
+      "theme": "Sustainability / ESG",
+      "theme_intensity": 0.0123,
+      "company_count": 1,
+      "forward_looking_rate": 0.0024,
+      "investment_rate": 0.0019,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2024,
+      "theme": "Workforce Transformation",
+      "theme_intensity": 0.0074,
+      "company_count": 1,
+      "forward_looking_rate": 0.0024,
+      "investment_rate": 0.0019,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2025,
+      "theme": "Artificial Intelligence",
+      "theme_intensity": 0.0192,
+      "company_count": 2,
+      "forward_looking_rate": 0.0034,
+      "investment_rate": 0.0018,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2025,
+      "theme": "Automation",
+      "theme_intensity": 0.0037,
+      "company_count": 2,
+      "forward_looking_rate": 0.0034,
+      "investment_rate": 0.0018,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2025,
+      "theme": "Cloud Transformation",
+      "theme_intensity": 0.0161,
+      "company_count": 2,
+      "forward_looking_rate": 0.0034,
+      "investment_rate": 0.0018,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2025,
+      "theme": "Cost Optimization",
+      "theme_intensity": 0.0277,
+      "company_count": 2,
+      "forward_looking_rate": 0.0034,
+      "investment_rate": 0.0018,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2025,
+      "theme": "Cybersecurity",
+      "theme_intensity": 0.0347,
+      "company_count": 2,
+      "forward_looking_rate": 0.0034,
+      "investment_rate": 0.0018,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2025,
+      "theme": "Digital Transformation",
+      "theme_intensity": 0.0352,
+      "company_count": 2,
+      "forward_looking_rate": 0.0034,
+      "investment_rate": 0.0018,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2025,
+      "theme": "Generative AI",
+      "theme_intensity": 0.0073,
+      "company_count": 2,
+      "forward_looking_rate": 0.0034,
+      "investment_rate": 0.0018,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2025,
+      "theme": "Supply Chain Resilience",
+      "theme_intensity": 0.0217,
+      "company_count": 2,
+      "forward_looking_rate": 0.0034,
+      "investment_rate": 0.0018,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2025,
+      "theme": "Sustainability / ESG",
+      "theme_intensity": 0.0134,
+      "company_count": 2,
+      "forward_looking_rate": 0.0034,
+      "investment_rate": 0.0018,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2025,
+      "theme": "Workforce Transformation",
+      "theme_intensity": 0.0111,
+      "company_count": 2,
+      "forward_looking_rate": 0.0034,
+      "investment_rate": 0.0018,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2026,
+      "theme": "Artificial Intelligence",
+      "theme_intensity": 0.0129,
+      "company_count": 1,
+      "forward_looking_rate": 0.0042,
+      "investment_rate": 0.0019,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2026,
+      "theme": "Automation",
+      "theme_intensity": 0.0048,
+      "company_count": 1,
+      "forward_looking_rate": 0.0042,
+      "investment_rate": 0.0019,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2026,
+      "theme": "Cloud Transformation",
+      "theme_intensity": 0.011,
+      "company_count": 1,
+      "forward_looking_rate": 0.0042,
+      "investment_rate": 0.0019,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2026,
+      "theme": "Cost Optimization",
+      "theme_intensity": 0.0289,
+      "company_count": 1,
+      "forward_looking_rate": 0.0042,
+      "investment_rate": 0.0019,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2026,
+      "theme": "Cybersecurity",
+      "theme_intensity": 0.0438,
+      "company_count": 1,
+      "forward_looking_rate": 0.0042,
+      "investment_rate": 0.0019,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2026,
+      "theme": "Digital Transformation",
+      "theme_intensity": 0.0395,
+      "company_count": 1,
+      "forward_looking_rate": 0.0042,
+      "investment_rate": 0.0019,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2026,
+      "theme": "Generative AI",
+      "theme_intensity": 0.0052,
+      "company_count": 1,
+      "forward_looking_rate": 0.0042,
+      "investment_rate": 0.0019,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2026,
+      "theme": "Supply Chain Resilience",
+      "theme_intensity": 0.0297,
+      "company_count": 1,
+      "forward_looking_rate": 0.0042,
+      "investment_rate": 0.0019,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2026,
+      "theme": "Sustainability / ESG",
+      "theme_intensity": 0.0136,
+      "company_count": 1,
+      "forward_looking_rate": 0.0042,
+      "investment_rate": 0.0019,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "year": 2026,
+      "theme": "Workforce Transformation",
+      "theme_intensity": 0.0199,
+      "company_count": 1,
+      "forward_looking_rate": 0.0042,
+      "investment_rate": 0.0019,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Consumer Staples",
+      "year": 2025,
+      "theme": "Artificial Intelligence",
+      "theme_intensity": 0.0065,
+      "company_count": 1,
+      "forward_looking_rate": 0.0017,
+      "investment_rate": 0.0024,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Staples",
+      "year": 2025,
+      "theme": "Automation",
+      "theme_intensity": 0.0048,
+      "company_count": 1,
+      "forward_looking_rate": 0.0017,
+      "investment_rate": 0.0024,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Staples",
+      "year": 2025,
+      "theme": "Cloud Transformation",
+      "theme_intensity": 0.0096,
+      "company_count": 1,
+      "forward_looking_rate": 0.0017,
+      "investment_rate": 0.0024,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Staples",
+      "year": 2025,
+      "theme": "Cost Optimization",
+      "theme_intensity": 0.0196,
+      "company_count": 1,
+      "forward_looking_rate": 0.0017,
+      "investment_rate": 0.0024,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Staples",
+      "year": 2025,
+      "theme": "Cybersecurity",
+      "theme_intensity": 0.0295,
+      "company_count": 1,
+      "forward_looking_rate": 0.0017,
+      "investment_rate": 0.0024,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Staples",
+      "year": 2025,
+      "theme": "Digital Transformation",
+      "theme_intensity": 0.0232,
+      "company_count": 1,
+      "forward_looking_rate": 0.0017,
+      "investment_rate": 0.0024,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Staples",
+      "year": 2025,
+      "theme": "Generative AI",
+      "theme_intensity": 0.0034,
+      "company_count": 1,
+      "forward_looking_rate": 0.0017,
+      "investment_rate": 0.0024,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Staples",
+      "year": 2025,
+      "theme": "Supply Chain Resilience",
+      "theme_intensity": 0.0137,
+      "company_count": 1,
+      "forward_looking_rate": 0.0017,
+      "investment_rate": 0.0024,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Staples",
+      "year": 2025,
+      "theme": "Sustainability / ESG",
+      "theme_intensity": 0.0116,
+      "company_count": 1,
+      "forward_looking_rate": 0.0017,
+      "investment_rate": 0.0024,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Staples",
+      "year": 2025,
+      "theme": "Workforce Transformation",
+      "theme_intensity": 0.0077,
+      "company_count": 1,
+      "forward_looking_rate": 0.0017,
+      "investment_rate": 0.0024,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Consumer Staples",
+      "year": 2026,
+      "theme": "Artificial Intelligence",
+      "theme_intensity": 0.0073,
+      "company_count": 1,
+      "forward_looking_rate": 0.002,
+      "investment_rate": 0.0023,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Consumer Staples",
+      "year": 2026,
+      "theme": "Automation",
+      "theme_intensity": 0.0044,
+      "company_count": 1,
+      "forward_looking_rate": 0.002,
+      "investment_rate": 0.0023,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Consumer Staples",
+      "year": 2026,
+      "theme": "Cloud Transformation",
+      "theme_intensity": 0.0089,
+      "company_count": 1,
+      "forward_looking_rate": 0.002,
+      "investment_rate": 0.0023,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Consumer Staples",
+      "year": 2026,
+      "theme": "Cost Optimization",
+      "theme_intensity": 0.0192,
+      "company_count": 1,
+      "forward_looking_rate": 0.002,
+      "investment_rate": 0.0023,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Consumer Staples",
+      "year": 2026,
+      "theme": "Cybersecurity",
+      "theme_intensity": 0.0303,
+      "company_count": 1,
+      "forward_looking_rate": 0.002,
+      "investment_rate": 0.0023,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Consumer Staples",
+      "year": 2026,
+      "theme": "Digital Transformation",
+      "theme_intensity": 0.0258,
+      "company_count": 1,
+      "forward_looking_rate": 0.002,
+      "investment_rate": 0.0023,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Consumer Staples",
+      "year": 2026,
+      "theme": "Generative AI",
+      "theme_intensity": 0.0033,
+      "company_count": 1,
+      "forward_looking_rate": 0.002,
+      "investment_rate": 0.0023,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Consumer Staples",
+      "year": 2026,
+      "theme": "Supply Chain Resilience",
+      "theme_intensity": 0.0132,
+      "company_count": 1,
+      "forward_looking_rate": 0.002,
+      "investment_rate": 0.0023,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Consumer Staples",
+      "year": 2026,
+      "theme": "Sustainability / ESG",
+      "theme_intensity": 0.008,
+      "company_count": 1,
+      "forward_looking_rate": 0.002,
+      "investment_rate": 0.0023,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Consumer Staples",
+      "year": 2026,
+      "theme": "Workforce Transformation",
+      "theme_intensity": 0.0078,
+      "company_count": 1,
+      "forward_looking_rate": 0.002,
+      "investment_rate": 0.0023,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Energy",
+      "year": 2024,
+      "theme": "Artificial Intelligence",
+      "theme_intensity": 0.0037,
+      "company_count": 1,
+      "forward_looking_rate": 0.0031,
+      "investment_rate": 0.002,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Energy",
+      "year": 2024,
+      "theme": "Automation",
+      "theme_intensity": 0.0024,
+      "company_count": 1,
+      "forward_looking_rate": 0.0031,
+      "investment_rate": 0.002,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Energy",
+      "year": 2024,
+      "theme": "Cloud Transformation",
+      "theme_intensity": 0.0036,
+      "company_count": 1,
+      "forward_looking_rate": 0.0031,
+      "investment_rate": 0.002,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Energy",
+      "year": 2024,
+      "theme": "Cost Optimization",
+      "theme_intensity": 0.0186,
+      "company_count": 1,
+      "forward_looking_rate": 0.0031,
+      "investment_rate": 0.002,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Energy",
+      "year": 2024,
+      "theme": "Cybersecurity",
+      "theme_intensity": 0.0075,
+      "company_count": 1,
+      "forward_looking_rate": 0.0031,
+      "investment_rate": 0.002,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Energy",
+      "year": 2024,
+      "theme": "Digital Transformation",
+      "theme_intensity": 0.0107,
+      "company_count": 1,
+      "forward_looking_rate": 0.0031,
+      "investment_rate": 0.002,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Energy",
+      "year": 2024,
+      "theme": "Generative AI",
+      "theme_intensity": 0.0033,
+      "company_count": 1,
+      "forward_looking_rate": 0.0031,
+      "investment_rate": 0.002,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Energy",
+      "year": 2024,
+      "theme": "Supply Chain Resilience",
+      "theme_intensity": 0.0067,
+      "company_count": 1,
+      "forward_looking_rate": 0.0031,
+      "investment_rate": 0.002,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Energy",
+      "year": 2024,
+      "theme": "Sustainability / ESG",
+      "theme_intensity": 0.0291,
+      "company_count": 1,
+      "forward_looking_rate": 0.0031,
+      "investment_rate": 0.002,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Energy",
+      "year": 2024,
+      "theme": "Workforce Transformation",
+      "theme_intensity": 0.0054,
+      "company_count": 1,
+      "forward_looking_rate": 0.0031,
+      "investment_rate": 0.002,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Energy",
+      "year": 2025,
+      "theme": "Artificial Intelligence",
+      "theme_intensity": 0.0044,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.002,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Energy",
+      "year": 2025,
+      "theme": "Automation",
+      "theme_intensity": 0.0026,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.002,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Energy",
+      "year": 2025,
+      "theme": "Cloud Transformation",
+      "theme_intensity": 0.0039,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.002,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Energy",
+      "year": 2025,
+      "theme": "Cost Optimization",
+      "theme_intensity": 0.0194,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.002,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Energy",
+      "year": 2025,
+      "theme": "Cybersecurity",
+      "theme_intensity": 0.0086,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.002,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Energy",
+      "year": 2025,
+      "theme": "Digital Transformation",
+      "theme_intensity": 0.0112,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.002,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Energy",
+      "year": 2025,
+      "theme": "Generative AI",
+      "theme_intensity": 0.0033,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.002,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Energy",
+      "year": 2025,
+      "theme": "Supply Chain Resilience",
+      "theme_intensity": 0.0071,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.002,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Energy",
+      "year": 2025,
+      "theme": "Sustainability / ESG",
+      "theme_intensity": 0.0292,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.002,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Energy",
+      "year": 2025,
+      "theme": "Workforce Transformation",
+      "theme_intensity": 0.0053,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.002,
+      "change_rate": 0.0003
+    },
+    {
+      "industry": "Financial Services",
+      "year": 2025,
+      "theme": "Artificial Intelligence",
+      "theme_intensity": 0.0039,
+      "company_count": 1,
+      "forward_looking_rate": 0.0015,
+      "investment_rate": 0.0034,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Financial Services",
+      "year": 2025,
+      "theme": "Automation",
+      "theme_intensity": 0.0017,
+      "company_count": 1,
+      "forward_looking_rate": 0.0015,
+      "investment_rate": 0.0034,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Financial Services",
+      "year": 2025,
+      "theme": "Cloud Transformation",
+      "theme_intensity": 0.0036,
+      "company_count": 1,
+      "forward_looking_rate": 0.0015,
+      "investment_rate": 0.0034,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Financial Services",
+      "year": 2025,
+      "theme": "Cost Optimization",
+      "theme_intensity": 0.0123,
+      "company_count": 1,
+      "forward_looking_rate": 0.0015,
+      "investment_rate": 0.0034,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Financial Services",
+      "year": 2025,
+      "theme": "Cybersecurity",
+      "theme_intensity": 0.011,
+      "company_count": 1,
+      "forward_looking_rate": 0.0015,
+      "investment_rate": 0.0034,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Financial Services",
+      "year": 2025,
+      "theme": "Digital Transformation",
+      "theme_intensity": 0.007,
+      "company_count": 1,
+      "forward_looking_rate": 0.0015,
+      "investment_rate": 0.0034,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Financial Services",
+      "year": 2025,
+      "theme": "Generative AI",
+      "theme_intensity": 0.0032,
+      "company_count": 1,
+      "forward_looking_rate": 0.0015,
+      "investment_rate": 0.0034,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Financial Services",
+      "year": 2025,
+      "theme": "Supply Chain Resilience",
+      "theme_intensity": 0.0201,
+      "company_count": 1,
+      "forward_looking_rate": 0.0015,
+      "investment_rate": 0.0034,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Financial Services",
+      "year": 2025,
+      "theme": "Sustainability / ESG",
+      "theme_intensity": 0.0135,
+      "company_count": 1,
+      "forward_looking_rate": 0.0015,
+      "investment_rate": 0.0034,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Financial Services",
+      "year": 2025,
+      "theme": "Workforce Transformation",
+      "theme_intensity": 0.0031,
+      "company_count": 1,
+      "forward_looking_rate": 0.0015,
+      "investment_rate": 0.0034,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Healthcare",
+      "year": 2024,
+      "theme": "Artificial Intelligence",
+      "theme_intensity": 0.0074,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.001,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Healthcare",
+      "year": 2024,
+      "theme": "Automation",
+      "theme_intensity": 0.003,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.001,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Healthcare",
+      "year": 2024,
+      "theme": "Cloud Transformation",
+      "theme_intensity": 0.0041,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.001,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Healthcare",
+      "year": 2024,
+      "theme": "Cost Optimization",
+      "theme_intensity": 0.0199,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.001,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Healthcare",
+      "year": 2024,
+      "theme": "Cybersecurity",
+      "theme_intensity": 0.0136,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.001,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Healthcare",
+      "year": 2024,
+      "theme": "Digital Transformation",
+      "theme_intensity": 0.0162,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.001,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Healthcare",
+      "year": 2024,
+      "theme": "Generative AI",
+      "theme_intensity": 0.0023,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.001,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Healthcare",
+      "year": 2024,
+      "theme": "Supply Chain Resilience",
+      "theme_intensity": 0.0103,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.001,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Healthcare",
+      "year": 2024,
+      "theme": "Sustainability / ESG",
+      "theme_intensity": 0.0086,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.001,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Healthcare",
+      "year": 2024,
+      "theme": "Workforce Transformation",
+      "theme_intensity": 0.0072,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.001,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Healthcare",
+      "year": 2025,
+      "theme": "Artificial Intelligence",
+      "theme_intensity": 0.0108,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.0011,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Healthcare",
+      "year": 2025,
+      "theme": "Automation",
+      "theme_intensity": 0.0043,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.0011,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Healthcare",
+      "year": 2025,
+      "theme": "Cloud Transformation",
+      "theme_intensity": 0.005,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.0011,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Healthcare",
+      "year": 2025,
+      "theme": "Cost Optimization",
+      "theme_intensity": 0.0212,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.0011,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Healthcare",
+      "year": 2025,
+      "theme": "Cybersecurity",
+      "theme_intensity": 0.0153,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.0011,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Healthcare",
+      "year": 2025,
+      "theme": "Digital Transformation",
+      "theme_intensity": 0.0184,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.0011,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Healthcare",
+      "year": 2025,
+      "theme": "Generative AI",
+      "theme_intensity": 0.0037,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.0011,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Healthcare",
+      "year": 2025,
+      "theme": "Supply Chain Resilience",
+      "theme_intensity": 0.0112,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.0011,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Healthcare",
+      "year": 2025,
+      "theme": "Sustainability / ESG",
+      "theme_intensity": 0.0089,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.0011,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Healthcare",
+      "year": 2025,
+      "theme": "Workforce Transformation",
+      "theme_intensity": 0.007,
+      "company_count": 1,
+      "forward_looking_rate": 0.0033,
+      "investment_rate": 0.0011,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Industrials",
+      "year": 2024,
+      "theme": "Artificial Intelligence",
+      "theme_intensity": 0.0055,
+      "company_count": 1,
+      "forward_looking_rate": 0.0036,
+      "investment_rate": 0.0013,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Industrials",
+      "year": 2024,
+      "theme": "Automation",
+      "theme_intensity": 0.0028,
+      "company_count": 1,
+      "forward_looking_rate": 0.0036,
+      "investment_rate": 0.0013,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Industrials",
+      "year": 2024,
+      "theme": "Cloud Transformation",
+      "theme_intensity": 0.0057,
+      "company_count": 1,
+      "forward_looking_rate": 0.0036,
+      "investment_rate": 0.0013,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Industrials",
+      "year": 2024,
+      "theme": "Cost Optimization",
+      "theme_intensity": 0.0206,
+      "company_count": 1,
+      "forward_looking_rate": 0.0036,
+      "investment_rate": 0.0013,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Industrials",
+      "year": 2024,
+      "theme": "Cybersecurity",
+      "theme_intensity": 0.0102,
+      "company_count": 1,
+      "forward_looking_rate": 0.0036,
+      "investment_rate": 0.0013,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Industrials",
+      "year": 2024,
+      "theme": "Digital Transformation",
+      "theme_intensity": 0.013,
+      "company_count": 1,
+      "forward_looking_rate": 0.0036,
+      "investment_rate": 0.0013,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Industrials",
+      "year": 2024,
+      "theme": "Generative AI",
+      "theme_intensity": 0.0061,
+      "company_count": 1,
+      "forward_looking_rate": 0.0036,
+      "investment_rate": 0.0013,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Industrials",
+      "year": 2024,
+      "theme": "Supply Chain Resilience",
+      "theme_intensity": 0.0121,
+      "company_count": 1,
+      "forward_looking_rate": 0.0036,
+      "investment_rate": 0.0013,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Industrials",
+      "year": 2024,
+      "theme": "Sustainability / ESG",
+      "theme_intensity": 0.0129,
+      "company_count": 1,
+      "forward_looking_rate": 0.0036,
+      "investment_rate": 0.0013,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Industrials",
+      "year": 2024,
+      "theme": "Workforce Transformation",
+      "theme_intensity": 0.0092,
+      "company_count": 1,
+      "forward_looking_rate": 0.0036,
+      "investment_rate": 0.0013,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Industrials",
+      "year": 2025,
+      "theme": "Artificial Intelligence",
+      "theme_intensity": 0.0055,
+      "company_count": 1,
+      "forward_looking_rate": 0.0039,
+      "investment_rate": 0.0012,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Industrials",
+      "year": 2025,
+      "theme": "Automation",
+      "theme_intensity": 0.003,
+      "company_count": 1,
+      "forward_looking_rate": 0.0039,
+      "investment_rate": 0.0012,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Industrials",
+      "year": 2025,
+      "theme": "Cloud Transformation",
+      "theme_intensity": 0.0062,
+      "company_count": 1,
+      "forward_looking_rate": 0.0039,
+      "investment_rate": 0.0012,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Industrials",
+      "year": 2025,
+      "theme": "Cost Optimization",
+      "theme_intensity": 0.0236,
+      "company_count": 1,
+      "forward_looking_rate": 0.0039,
+      "investment_rate": 0.0012,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Industrials",
+      "year": 2025,
+      "theme": "Cybersecurity",
+      "theme_intensity": 0.0111,
+      "company_count": 1,
+      "forward_looking_rate": 0.0039,
+      "investment_rate": 0.0012,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Industrials",
+      "year": 2025,
+      "theme": "Digital Transformation",
+      "theme_intensity": 0.0144,
+      "company_count": 1,
+      "forward_looking_rate": 0.0039,
+      "investment_rate": 0.0012,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Industrials",
+      "year": 2025,
+      "theme": "Generative AI",
+      "theme_intensity": 0.0067,
+      "company_count": 1,
+      "forward_looking_rate": 0.0039,
+      "investment_rate": 0.0012,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Industrials",
+      "year": 2025,
+      "theme": "Supply Chain Resilience",
+      "theme_intensity": 0.0136,
+      "company_count": 1,
+      "forward_looking_rate": 0.0039,
+      "investment_rate": 0.0012,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Industrials",
+      "year": 2025,
+      "theme": "Sustainability / ESG",
+      "theme_intensity": 0.0143,
+      "company_count": 1,
+      "forward_looking_rate": 0.0039,
+      "investment_rate": 0.0012,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Industrials",
+      "year": 2025,
+      "theme": "Workforce Transformation",
+      "theme_intensity": 0.0099,
+      "company_count": 1,
+      "forward_looking_rate": 0.0039,
+      "investment_rate": 0.0012,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Technology",
+      "year": 2024,
+      "theme": "Artificial Intelligence",
+      "theme_intensity": 0.0296,
+      "company_count": 2,
+      "forward_looking_rate": 0.0027,
+      "investment_rate": 0.0013,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Technology",
+      "year": 2024,
+      "theme": "Automation",
+      "theme_intensity": 0.0087,
+      "company_count": 2,
+      "forward_looking_rate": 0.0027,
+      "investment_rate": 0.0013,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Technology",
+      "year": 2024,
+      "theme": "Cloud Transformation",
+      "theme_intensity": 0.0416,
+      "company_count": 2,
+      "forward_looking_rate": 0.0027,
+      "investment_rate": 0.0013,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Technology",
+      "year": 2024,
+      "theme": "Cost Optimization",
+      "theme_intensity": 0.0222,
+      "company_count": 2,
+      "forward_looking_rate": 0.0027,
+      "investment_rate": 0.0013,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Technology",
+      "year": 2024,
+      "theme": "Cybersecurity",
+      "theme_intensity": 0.0336,
+      "company_count": 2,
+      "forward_looking_rate": 0.0027,
+      "investment_rate": 0.0013,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Technology",
+      "year": 2024,
+      "theme": "Digital Transformation",
+      "theme_intensity": 0.0402,
+      "company_count": 2,
+      "forward_looking_rate": 0.0027,
+      "investment_rate": 0.0013,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Technology",
+      "year": 2024,
+      "theme": "Generative AI",
+      "theme_intensity": 0.0165,
+      "company_count": 2,
+      "forward_looking_rate": 0.0027,
+      "investment_rate": 0.0013,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Technology",
+      "year": 2024,
+      "theme": "Supply Chain Resilience",
+      "theme_intensity": 0.0133,
+      "company_count": 2,
+      "forward_looking_rate": 0.0027,
+      "investment_rate": 0.0013,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Technology",
+      "year": 2024,
+      "theme": "Sustainability / ESG",
+      "theme_intensity": 0.011,
+      "company_count": 2,
+      "forward_looking_rate": 0.0027,
+      "investment_rate": 0.0013,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Technology",
+      "year": 2024,
+      "theme": "Workforce Transformation",
+      "theme_intensity": 0.0103,
+      "company_count": 2,
+      "forward_looking_rate": 0.0027,
+      "investment_rate": 0.0013,
+      "change_rate": 0.0001
+    },
+    {
+      "industry": "Technology",
+      "year": 2025,
+      "theme": "Artificial Intelligence",
+      "theme_intensity": 0.0324,
+      "company_count": 3,
+      "forward_looking_rate": 0.0031,
+      "investment_rate": 0.0017,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Technology",
+      "year": 2025,
+      "theme": "Automation",
+      "theme_intensity": 0.0086,
+      "company_count": 3,
+      "forward_looking_rate": 0.0031,
+      "investment_rate": 0.0017,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Technology",
+      "year": 2025,
+      "theme": "Cloud Transformation",
+      "theme_intensity": 0.049,
+      "company_count": 3,
+      "forward_looking_rate": 0.0031,
+      "investment_rate": 0.0017,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Technology",
+      "year": 2025,
+      "theme": "Cost Optimization",
+      "theme_intensity": 0.0253,
+      "company_count": 3,
+      "forward_looking_rate": 0.0031,
+      "investment_rate": 0.0017,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Technology",
+      "year": 2025,
+      "theme": "Cybersecurity",
+      "theme_intensity": 0.0335,
+      "company_count": 3,
+      "forward_looking_rate": 0.0031,
+      "investment_rate": 0.0017,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Technology",
+      "year": 2025,
+      "theme": "Digital Transformation",
+      "theme_intensity": 0.0427,
+      "company_count": 3,
+      "forward_looking_rate": 0.0031,
+      "investment_rate": 0.0017,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Technology",
+      "year": 2025,
+      "theme": "Generative AI",
+      "theme_intensity": 0.0148,
+      "company_count": 3,
+      "forward_looking_rate": 0.0031,
+      "investment_rate": 0.0017,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Technology",
+      "year": 2025,
+      "theme": "Supply Chain Resilience",
+      "theme_intensity": 0.0119,
+      "company_count": 3,
+      "forward_looking_rate": 0.0031,
+      "investment_rate": 0.0017,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Technology",
+      "year": 2025,
+      "theme": "Sustainability / ESG",
+      "theme_intensity": 0.0115,
+      "company_count": 3,
+      "forward_looking_rate": 0.0031,
+      "investment_rate": 0.0017,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Technology",
+      "year": 2025,
+      "theme": "Workforce Transformation",
+      "theme_intensity": 0.0124,
+      "company_count": 3,
+      "forward_looking_rate": 0.0031,
+      "investment_rate": 0.0017,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Technology",
+      "year": 2026,
+      "theme": "Artificial Intelligence",
+      "theme_intensity": 0.0432,
+      "company_count": 1,
+      "forward_looking_rate": 0.0041,
+      "investment_rate": 0.0029,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Technology",
+      "year": 2026,
+      "theme": "Automation",
+      "theme_intensity": 0.0093,
+      "company_count": 1,
+      "forward_looking_rate": 0.0041,
+      "investment_rate": 0.0029,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Technology",
+      "year": 2026,
+      "theme": "Cloud Transformation",
+      "theme_intensity": 0.0562,
+      "company_count": 1,
+      "forward_looking_rate": 0.0041,
+      "investment_rate": 0.0029,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Technology",
+      "year": 2026,
+      "theme": "Cost Optimization",
+      "theme_intensity": 0.0295,
+      "company_count": 1,
+      "forward_looking_rate": 0.0041,
+      "investment_rate": 0.0029,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Technology",
+      "year": 2026,
+      "theme": "Cybersecurity",
+      "theme_intensity": 0.039,
+      "company_count": 1,
+      "forward_looking_rate": 0.0041,
+      "investment_rate": 0.0029,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Technology",
+      "year": 2026,
+      "theme": "Digital Transformation",
+      "theme_intensity": 0.0504,
+      "company_count": 1,
+      "forward_looking_rate": 0.0041,
+      "investment_rate": 0.0029,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Technology",
+      "year": 2026,
+      "theme": "Generative AI",
+      "theme_intensity": 0.0213,
+      "company_count": 1,
+      "forward_looking_rate": 0.0041,
+      "investment_rate": 0.0029,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Technology",
+      "year": 2026,
+      "theme": "Supply Chain Resilience",
+      "theme_intensity": 0.0098,
+      "company_count": 1,
+      "forward_looking_rate": 0.0041,
+      "investment_rate": 0.0029,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Technology",
+      "year": 2026,
+      "theme": "Sustainability / ESG",
+      "theme_intensity": 0.0118,
+      "company_count": 1,
+      "forward_looking_rate": 0.0041,
+      "investment_rate": 0.0029,
+      "change_rate": 0.0002
+    },
+    {
+      "industry": "Technology",
+      "year": 2026,
+      "theme": "Workforce Transformation",
+      "theme_intensity": 0.0183,
+      "company_count": 1,
+      "forward_looking_rate": 0.0041,
+      "investment_rate": 0.0029,
+      "change_rate": 0.0002
+    }
+  ],
+  "fastestIndustries": [
+    {
+      "industry": "Technology",
+      "avgIntensity": 0.0253,
+      "companyCount": 3
+    },
+    {
+      "industry": "Consumer Discretionary",
+      "avgIntensity": 0.0193,
+      "companyCount": 2
+    },
+    {
+      "industry": "Consumer Staples",
+      "avgIntensity": 0.0129,
+      "companyCount": 1
+    },
+    {
+      "industry": "Industrials",
+      "avgIntensity": 0.0103,
+      "companyCount": 1
+    },
+    {
+      "industry": "Healthcare",
+      "avgIntensity": 0.0099,
+      "companyCount": 1
+    },
+    {
+      "industry": "Energy",
+      "avgIntensity": 0.0093,
+      "companyCount": 1
+    },
+    {
+      "industry": "Financial Services",
+      "avgIntensity": 0.0079,
+      "companyCount": 1
+    }
+  ]
+}

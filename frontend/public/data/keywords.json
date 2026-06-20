@@ -1,0 +1,826 @@
+{
+  "byCompany": {
+    "Amazon": [
+      {
+        "term": "0001018724",
+        "rank": 1,
+        "tfidf_weight": 0.4058
+      },
+      {
+        "term": "0001018724",
+        "rank": 1,
+        "tfidf_weight": 0.4045
+      },
+      {
+        "term": "31 0001018724",
+        "rank": 2,
+        "tfidf_weight": 0.3818
+      },
+      {
+        "term": "31 0001018724",
+        "rank": 2,
+        "tfidf_weight": 0.3763
+      },
+      {
+        "term": "12 31 0001018724",
+        "rank": 3,
+        "tfidf_weight": 0.3667
+      },
+      {
+        "term": "12 31 0001018724",
+        "rank": 3,
+        "tfidf_weight": 0.3638
+      },
+      {
+        "term": "amzn",
+        "rank": 4,
+        "tfidf_weight": 0.212
+      },
+      {
+        "term": "0001018724 gaap",
+        "rank": 4,
+        "tfidf_weight": 0.2119
+      },
+      {
+        "term": "0001018724 gaap",
+        "rank": 5,
+        "tfidf_weight": 0.2066
+      },
+      {
+        "term": "amzn",
+        "rank": 5,
+        "tfidf_weight": 0.2063
+      },
+      {
+        "term": "31 0001018724 gaap",
+        "rank": 6,
+        "tfidf_weight": 0.2029
+      },
+      {
+        "term": "31 0001018724 gaap",
+        "rank": 6,
+        "tfidf_weight": 0.1958
+      }
+    ],
+    "Apple": [
+      {
+        "term": "company",
+        "rank": 1,
+        "tfidf_weight": 0.488
+      },
+      {
+        "term": "company",
+        "rank": 1,
+        "tfidf_weight": 0.477
+      },
+      {
+        "term": "0000320193",
+        "rank": 2,
+        "tfidf_weight": 0.3432
+      },
+      {
+        "term": "0000320193",
+        "rank": 2,
+        "tfidf_weight": 0.3173
+      },
+      {
+        "term": "2024",
+        "rank": 3,
+        "tfidf_weight": 0.1979
+      },
+      {
+        "term": "2025",
+        "rank": 3,
+        "tfidf_weight": 0.1855
+      },
+      {
+        "term": "0000320193 gaap",
+        "rank": 4,
+        "tfidf_weight": 0.1838
+      },
+      {
+        "term": "0000320193 gaap",
+        "rank": 4,
+        "tfidf_weight": 0.1752
+      },
+      {
+        "term": "2025 09 27",
+        "rank": 5,
+        "tfidf_weight": 0.17
+      },
+      {
+        "term": "2024 09 28",
+        "rank": 5,
+        "tfidf_weight": 0.161
+      },
+      {
+        "term": "09 27 0000320193",
+        "rank": 6,
+        "tfidf_weight": 0.168
+      },
+      {
+        "term": "09 28 0000320193",
+        "rank": 6,
+        "tfidf_weight": 0.1592
+      }
+    ],
+    "Exxon Mobil": [
+      {
+        "term": "0000034088",
+        "rank": 1,
+        "tfidf_weight": 0.3967
+      },
+      {
+        "term": "0000034088",
+        "rank": 1,
+        "tfidf_weight": 0.395
+      },
+      {
+        "term": "31 0000034088",
+        "rank": 2,
+        "tfidf_weight": 0.3817
+      },
+      {
+        "term": "31 0000034088",
+        "rank": 2,
+        "tfidf_weight": 0.3792
+      },
+      {
+        "term": "12 31 0000034088",
+        "rank": 3,
+        "tfidf_weight": 0.3811
+      },
+      {
+        "term": "12 31 0000034088",
+        "rank": 3,
+        "tfidf_weight": 0.3786
+      },
+      {
+        "term": "xom",
+        "rank": 4,
+        "tfidf_weight": 0.3678
+      },
+      {
+        "term": "xom",
+        "rank": 4,
+        "tfidf_weight": 0.3635
+      },
+      {
+        "term": "12 31",
+        "rank": 5,
+        "tfidf_weight": 0.199
+      },
+      {
+        "term": "12 31",
+        "rank": 5,
+        "tfidf_weight": 0.1978
+      },
+      {
+        "term": "0000034088 gaap",
+        "rank": 6,
+        "tfidf_weight": 0.1802
+      },
+      {
+        "term": "0000034088 xom",
+        "rank": 6,
+        "tfidf_weight": 0.1718
+      }
+    ],
+    "Ford Motor Company": [
+      {
+        "term": "0000037996",
+        "rank": 1,
+        "tfidf_weight": 0.3825
+      },
+      {
+        "term": "0000037996",
+        "rank": 1,
+        "tfidf_weight": 0.3684
+      },
+      {
+        "term": "31 0000037996",
+        "rank": 2,
+        "tfidf_weight": 0.3796
+      },
+      {
+        "term": "31 0000037996",
+        "rank": 2,
+        "tfidf_weight": 0.3647
+      },
+      {
+        "term": "12 31 0000037996",
+        "rank": 3,
+        "tfidf_weight": 0.3748
+      },
+      {
+        "term": "12 31 0000037996",
+        "rank": 3,
+        "tfidf_weight": 0.3609
+      },
+      {
+        "term": "ford",
+        "rank": 4,
+        "tfidf_weight": 0.3422
+      },
+      {
+        "term": "ford",
+        "rank": 4,
+        "tfidf_weight": 0.3415
+      },
+      {
+        "term": "0000037996 gaap",
+        "rank": 5,
+        "tfidf_weight": 0.2597
+      },
+      {
+        "term": "0000037996 gaap",
+        "rank": 5,
+        "tfidf_weight": 0.2184
+      },
+      {
+        "term": "31 0000037996 gaap",
+        "rank": 6,
+        "tfidf_weight": 0.2577
+      },
+      {
+        "term": "31 0000037996 gaap",
+        "rank": 6,
+        "tfidf_weight": 0.2169
+      }
+    ],
+    "JPMorgan Chase": [
+      {
+        "term": "0000019617",
+        "rank": 1,
+        "tfidf_weight": 0.4152
+      },
+      {
+        "term": "31 0000019617",
+        "rank": 2,
+        "tfidf_weight": 0.4094
+      },
+      {
+        "term": "12 31 0000019617",
+        "rank": 3,
+        "tfidf_weight": 0.4079
+      },
+      {
+        "term": "0000019617 gaap",
+        "rank": 4,
+        "tfidf_weight": 0.2573
+      },
+      {
+        "term": "31 0000019617 gaap",
+        "rank": 5,
+        "tfidf_weight": 0.2566
+      },
+      {
+        "term": "jpm",
+        "rank": 6,
+        "tfidf_weight": 0.2358
+      },
+      {
+        "term": "12 31",
+        "rank": 7,
+        "tfidf_weight": 0.1867
+      },
+      {
+        "term": "gaap",
+        "rank": 8,
+        "tfidf_weight": 0.1695
+      },
+      {
+        "term": "31",
+        "rank": 9,
+        "tfidf_weight": 0.1526
+      },
+      {
+        "term": "12",
+        "rank": 10,
+        "tfidf_weight": 0.1271
+      },
+      {
+        "term": "2025 12 31",
+        "rank": 11,
+        "tfidf_weight": 0.1238
+      },
+      {
+        "term": "0000019617 jpm",
+        "rank": 12,
+        "tfidf_weight": 0.1184
+      }
+    ],
+    "Microsoft": [
+      {
+        "term": "0000789019",
+        "rank": 1,
+        "tfidf_weight": 0.4137
+      },
+      {
+        "term": "0000789019",
+        "rank": 1,
+        "tfidf_weight": 0.412
+      },
+      {
+        "term": "30 0000789019",
+        "rank": 2,
+        "tfidf_weight": 0.3838
+      },
+      {
+        "term": "30 0000789019",
+        "rank": 2,
+        "tfidf_weight": 0.3758
+      },
+      {
+        "term": "06 30 0000789019",
+        "rank": 3,
+        "tfidf_weight": 0.3772
+      },
+      {
+        "term": "06 30 0000789019",
+        "rank": 3,
+        "tfidf_weight": 0.3705
+      },
+      {
+        "term": "0000789019 gaap",
+        "rank": 4,
+        "tfidf_weight": 0.2051
+      },
+      {
+        "term": "0000789019 gaap",
+        "rank": 4,
+        "tfidf_weight": 0.1975
+      },
+      {
+        "term": "30 0000789019 gaap",
+        "rank": 5,
+        "tfidf_weight": 0.1866
+      },
+      {
+        "term": "30 0000789019 gaap",
+        "rank": 5,
+        "tfidf_weight": 0.1863
+      },
+      {
+        "term": "msft",
+        "rank": 6,
+        "tfidf_weight": 0.1844
+      },
+      {
+        "term": "msft",
+        "rank": 6,
+        "tfidf_weight": 0.1804
+      }
+    ],
+    "Pfizer": [
+      {
+        "term": "0000078003",
+        "rank": 1,
+        "tfidf_weight": 0.4006
+      },
+      {
+        "term": "0000078003",
+        "rank": 1,
+        "tfidf_weight": 0.3981
+      },
+      {
+        "term": "31 0000078003",
+        "rank": 2,
+        "tfidf_weight": 0.3828
+      },
+      {
+        "term": "31 0000078003",
+        "rank": 2,
+        "tfidf_weight": 0.377
+      },
+      {
+        "term": "12 31 0000078003",
+        "rank": 3,
+        "tfidf_weight": 0.3737
+      },
+      {
+        "term": "12 31 0000078003",
+        "rank": 3,
+        "tfidf_weight": 0.3623
+      },
+      {
+        "term": "pfe",
+        "rank": 4,
+        "tfidf_weight": 0.357
+      },
+      {
+        "term": "pfe",
+        "rank": 4,
+        "tfidf_weight": 0.3416
+      },
+      {
+        "term": "0000078003 gaap",
+        "rank": 5,
+        "tfidf_weight": 0.1992
+      },
+      {
+        "term": "12 31",
+        "rank": 5,
+        "tfidf_weight": 0.1951
+      },
+      {
+        "term": "31 0000078003 gaap",
+        "rank": 6,
+        "tfidf_weight": 0.1981
+      },
+      {
+        "term": "gaap",
+        "rank": 6,
+        "tfidf_weight": 0.1676
+      }
+    ],
+    "Salesforce": [
+      {
+        "term": "0001108524",
+        "rank": 1,
+        "tfidf_weight": 0.397
+      },
+      {
+        "term": "0001108524",
+        "rank": 1,
+        "tfidf_weight": 0.3871
+      },
+      {
+        "term": "31 0001108524",
+        "rank": 2,
+        "tfidf_weight": 0.3623
+      },
+      {
+        "term": "31 0001108524",
+        "rank": 2,
+        "tfidf_weight": 0.3604
+      },
+      {
+        "term": "01 31 0001108524",
+        "rank": 3,
+        "tfidf_weight": 0.353
+      },
+      {
+        "term": "01 31 0001108524",
+        "rank": 3,
+        "tfidf_weight": 0.3426
+      },
+      {
+        "term": "0001108524 gaap",
+        "rank": 4,
+        "tfidf_weight": 0.2281
+      },
+      {
+        "term": "0001108524 gaap",
+        "rank": 4,
+        "tfidf_weight": 0.2182
+      },
+      {
+        "term": "31 0001108524 gaap",
+        "rank": 5,
+        "tfidf_weight": 0.2261
+      },
+      {
+        "term": "31 0001108524 gaap",
+        "rank": 5,
+        "tfidf_weight": 0.2123
+      },
+      {
+        "term": "01 31",
+        "rank": 6,
+        "tfidf_weight": 0.1879
+      },
+      {
+        "term": "01 31",
+        "rank": 6,
+        "tfidf_weight": 0.1792
+      }
+    ],
+    "Target": [
+      {
+        "term": "0000027419",
+        "rank": 1,
+        "tfidf_weight": 0.4264
+      },
+      {
+        "term": "0000027419",
+        "rank": 1,
+        "tfidf_weight": 0.4256
+      },
+      {
+        "term": "0000027419 gaap",
+        "rank": 2,
+        "tfidf_weight": 0.2737
+      },
+      {
+        "term": "0000027419 gaap",
+        "rank": 2,
+        "tfidf_weight": 0.2719
+      },
+      {
+        "term": "01 31 0000027419",
+        "rank": 3,
+        "tfidf_weight": 0.2351
+      },
+      {
+        "term": "01 0000027419",
+        "rank": 3,
+        "tfidf_weight": 0.2073
+      },
+      {
+        "term": "31 0000027419",
+        "rank": 4,
+        "tfidf_weight": 0.2156
+      },
+      {
+        "term": "02 01 0000027419",
+        "rank": 4,
+        "tfidf_weight": 0.2073
+      },
+      {
+        "term": "02",
+        "rank": 5,
+        "tfidf_weight": 0.1833
+      },
+      {
+        "term": "02",
+        "rank": 5,
+        "tfidf_weight": 0.167
+      },
+      {
+        "term": "2025",
+        "rank": 6,
+        "tfidf_weight": 0.1631
+      },
+      {
+        "term": "2024",
+        "rank": 6,
+        "tfidf_weight": 0.1587
+      }
+    ],
+    "Walmart": [
+      {
+        "term": "0000104169",
+        "rank": 1,
+        "tfidf_weight": 0.4082
+      },
+      {
+        "term": "0000104169",
+        "rank": 1,
+        "tfidf_weight": 0.3972
+      },
+      {
+        "term": "31 0000104169",
+        "rank": 2,
+        "tfidf_weight": 0.3821
+      },
+      {
+        "term": "31 0000104169",
+        "rank": 2,
+        "tfidf_weight": 0.382
+      },
+      {
+        "term": "01 31 0000104169",
+        "rank": 3,
+        "tfidf_weight": 0.3799
+      },
+      {
+        "term": "01 31 0000104169",
+        "rank": 3,
+        "tfidf_weight": 0.3797
+      },
+      {
+        "term": "wmt",
+        "rank": 4,
+        "tfidf_weight": 0.2947
+      },
+      {
+        "term": "wmt",
+        "rank": 4,
+        "tfidf_weight": 0.2937
+      },
+      {
+        "term": "01 31",
+        "rank": 5,
+        "tfidf_weight": 0.1993
+      },
+      {
+        "term": "01 31",
+        "rank": 5,
+        "tfidf_weight": 0.1986
+      },
+      {
+        "term": "01",
+        "rank": 6,
+        "tfidf_weight": 0.1992
+      },
+      {
+        "term": "01",
+        "rank": 6,
+        "tfidf_weight": 0.1958
+      }
+    ]
+  },
+  "globalTerms": [
+    {
+      "term": "2025",
+      "weight": 0.1375,
+      "companies": 9
+    },
+    {
+      "term": "gaap",
+      "weight": 0.1516,
+      "companies": 8
+    },
+    {
+      "term": "2024",
+      "weight": 0.1341,
+      "companies": 8
+    },
+    {
+      "term": "31",
+      "weight": 0.1558,
+      "companies": 7
+    },
+    {
+      "term": "01",
+      "weight": 0.1498,
+      "companies": 6
+    },
+    {
+      "term": "12 31",
+      "weight": 0.1929,
+      "companies": 5
+    },
+    {
+      "term": "12",
+      "weight": 0.1315,
+      "companies": 5
+    },
+    {
+      "term": "2025 12 31",
+      "weight": 0.1261,
+      "companies": 5
+    },
+    {
+      "term": "2025 12",
+      "weight": 0.1181,
+      "companies": 5
+    },
+    {
+      "term": "2023",
+      "weight": 0.1047,
+      "companies": 4
+    },
+    {
+      "term": "2026 01 31",
+      "weight": 0.1418,
+      "companies": 3
+    },
+    {
+      "term": "company",
+      "weight": 0.3102,
+      "companies": 2
+    },
+    {
+      "term": "01 31",
+      "weight": 0.1912,
+      "companies": 2
+    },
+    {
+      "term": "02 01",
+      "weight": 0.1272,
+      "companies": 2
+    },
+    {
+      "term": "2026",
+      "weight": 0.1229,
+      "companies": 2
+    },
+    {
+      "term": "2026 01",
+      "weight": 0.1199,
+      "companies": 2
+    },
+    {
+      "term": "2025 01 31",
+      "weight": 0.1166,
+      "companies": 2
+    },
+    {
+      "term": "0000027419",
+      "weight": 0.426,
+      "companies": 1
+    },
+    {
+      "term": "0000019617",
+      "weight": 0.4152,
+      "companies": 1
+    },
+    {
+      "term": "0000789019",
+      "weight": 0.4129,
+      "companies": 1
+    },
+    {
+      "term": "31 0000019617",
+      "weight": 0.4094,
+      "companies": 1
+    },
+    {
+      "term": "12 31 0000019617",
+      "weight": 0.4079,
+      "companies": 1
+    },
+    {
+      "term": "0001018724",
+      "weight": 0.4052,
+      "companies": 1
+    },
+    {
+      "term": "0000104169",
+      "weight": 0.4027,
+      "companies": 1
+    },
+    {
+      "term": "0000078003",
+      "weight": 0.3993,
+      "companies": 1
+    },
+    {
+      "term": "0000034088",
+      "weight": 0.3958,
+      "companies": 1
+    },
+    {
+      "term": "0001108524",
+      "weight": 0.392,
+      "companies": 1
+    },
+    {
+      "term": "31 0000104169",
+      "weight": 0.3821,
+      "companies": 1
+    },
+    {
+      "term": "31 0000034088",
+      "weight": 0.3805,
+      "companies": 1
+    },
+    {
+      "term": "12 31 0000034088",
+      "weight": 0.3799,
+      "companies": 1
+    },
+    {
+      "term": "31 0000078003",
+      "weight": 0.3799,
+      "companies": 1
+    },
+    {
+      "term": "01 31 0000104169",
+      "weight": 0.3798,
+      "companies": 1
+    },
+    {
+      "term": "30 0000789019",
+      "weight": 0.3798,
+      "companies": 1
+    },
+    {
+      "term": "31 0001018724",
+      "weight": 0.3791,
+      "companies": 1
+    },
+    {
+      "term": "0000037996",
+      "weight": 0.3755,
+      "companies": 1
+    },
+    {
+      "term": "06 30 0000789019",
+      "weight": 0.3738,
+      "companies": 1
+    },
+    {
+      "term": "31 0000037996",
+      "weight": 0.3721,
+      "companies": 1
+    },
+    {
+      "term": "12 31 0000078003",
+      "weight": 0.368,
+      "companies": 1
+    },
+    {
+      "term": "12 31 0000037996",
+      "weight": 0.3679,
+      "companies": 1
+    },
+    {
+      "term": "xom",
+      "weight": 0.3657,
+      "companies": 1
+    }
+  ]
+}

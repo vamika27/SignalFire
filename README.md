@@ -191,6 +191,46 @@ Launch the dashboard:
 streamlit run signalfire/dashboard/app.py
 ```
 
+## Vercel Frontend Dashboard
+
+SignalFire also includes a polished Next.js dashboard in `frontend/`. It reads
+static JSON from `frontend/public/data`, generated from the existing real
+processed outputs in `data/processed`.
+
+Export frontend JSON:
+
+```bash
+python3 -m signalfire.src.export_frontend_data
+```
+
+Run the Next.js dashboard locally:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Build for production:
+
+```bash
+cd frontend
+npm run build
+```
+
+Deploy to Vercel:
+
+1. Push the repository to GitHub.
+2. Create a new Vercel project.
+3. Set the Vercel root directory to `frontend`.
+4. Use the default commands:
+   - Install command: `npm install`
+   - Build command: `npm run build`
+   - Output directory: Next.js default
+
+Current frontend data is a smoke-test export, not a finished market-wide
+analysis. No synthetic analytics data is used.
+
 ## Example Insights
 
 When run on recent filings and transcripts, SignalFire is designed to surface
@@ -217,8 +257,13 @@ signalfire/
     trend_analysis.py
     visualizations.py
     pipeline.py
+    sec_pipeline.py
+    export_frontend_data.py
   dashboard/
     app.py
+frontend/
+  public/data/
+  src/app/
 notebooks/
   01_data_exploration.ipynb
   02_nlp_analysis.ipynb

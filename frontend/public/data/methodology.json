@@ -1,0 +1,1093 @@
+{
+  "flow": [
+    {
+      "step": 1,
+      "title": "SEC 10-K ingestion",
+      "description": "Download recent real SEC EDGAR 10-K filings for the watchlist."
+    },
+    {
+      "step": 2,
+      "title": "Text cleaning",
+      "description": "Normalize filing text and remove noisy HTML artifacts."
+    },
+    {
+      "step": 3,
+      "title": "NLP theme classification",
+      "description": "Score documents against auditable strategic theme definitions."
+    },
+    {
+      "step": 4,
+      "title": "TF-IDF / keyword extraction",
+      "description": "Extract high-weighted terms that help explain each company profile."
+    },
+    {
+      "step": 5,
+      "title": "Strategic scoring",
+      "description": "Calculate momentum, opportunity, readiness, and risk scores."
+    },
+    {
+      "step": 6,
+      "title": "Company intelligence profiles",
+      "description": "Summarize dominant and emerging themes by company."
+    },
+    {
+      "step": 7,
+      "title": "Opportunity radar",
+      "description": "Rank company-theme pairs for consulting opportunity review."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "SignalFire Score",
+      "formula": "30% Theme Intensity + 25% Theme Growth + 10% Hiring Alignment + 15% Organizational Signals + 20% Strategic Consistency"
+    },
+    {
+      "name": "Consulting Opportunity Score",
+      "formula": "35% Strategic Change Velocity + 25% Priority Growth + 20% Industry Transformation Pressure + 20% Organizational Disruption Signals"
+    },
+    {
+      "name": "Strategic Risk Score",
+      "formula": "45% Organizational Disruption + 30% Readiness Gap + 25% Theme Volatility"
+    }
+  ],
+  "themeTerms": [
+    {
+      "theme": "Artificial Intelligence",
+      "rank": 1,
+      "term": "ai",
+      "weight": 0.4377
+    },
+    {
+      "theme": "Artificial Intelligence",
+      "rank": 2,
+      "term": "predictive",
+      "weight": 0.3752
+    },
+    {
+      "theme": "Artificial Intelligence",
+      "rank": 3,
+      "term": "machine learning",
+      "weight": 0.2692
+    },
+    {
+      "theme": "Artificial Intelligence",
+      "rank": 4,
+      "term": "machine",
+      "weight": 0.2692
+    },
+    {
+      "theme": "Artificial Intelligence",
+      "rank": 5,
+      "term": "learning",
+      "weight": 0.2107
+    },
+    {
+      "theme": "Artificial Intelligence",
+      "rank": 6,
+      "term": "intelligence machine learning",
+      "weight": 0.2026
+    },
+    {
+      "theme": "Artificial Intelligence",
+      "rank": 7,
+      "term": "intelligence machine",
+      "weight": 0.2026
+    },
+    {
+      "theme": "Artificial Intelligence",
+      "rank": 8,
+      "term": "responsible ai",
+      "weight": 0.2026
+    },
+    {
+      "theme": "Artificial Intelligence",
+      "rank": 9,
+      "term": "artificial intelligence machine",
+      "weight": 0.2026
+    },
+    {
+      "theme": "Artificial Intelligence",
+      "rank": 10,
+      "term": "ai platform",
+      "weight": 0.2026
+    },
+    {
+      "theme": "Artificial Intelligence",
+      "rank": 11,
+      "term": "data science",
+      "weight": 0.1876
+    },
+    {
+      "theme": "Artificial Intelligence",
+      "rank": 12,
+      "term": "enabled products",
+      "weight": 0.1876
+    },
+    {
+      "theme": "Artificial Intelligence",
+      "rank": 13,
+      "term": "ai enabled",
+      "weight": 0.1753
+    },
+    {
+      "theme": "Artificial Intelligence",
+      "rank": 14,
+      "term": "analytics",
+      "weight": 0.141
+    },
+    {
+      "theme": "Artificial Intelligence",
+      "rank": 15,
+      "term": "science",
+      "weight": 0.1184
+    },
+    {
+      "theme": "Artificial Intelligence",
+      "rank": 16,
+      "term": "platform",
+      "weight": 0.1138
+    },
+    {
+      "theme": "Artificial Intelligence",
+      "rank": 17,
+      "term": "artificial intelligence",
+      "weight": 0.1094
+    },
+    {
+      "theme": "Artificial Intelligence",
+      "rank": 18,
+      "term": "artificial",
+      "weight": 0.1094
+    },
+    {
+      "theme": "Artificial Intelligence",
+      "rank": 19,
+      "term": "intelligence",
+      "weight": 0.1015
+    },
+    {
+      "theme": "Artificial Intelligence",
+      "rank": 20,
+      "term": "enabled",
+      "weight": 0.1015
+    },
+    {
+      "theme": "Generative AI",
+      "rank": 1,
+      "term": "content generation",
+      "weight": 0.4275
+    },
+    {
+      "theme": "Generative AI",
+      "rank": 2,
+      "term": "large language",
+      "weight": 0.3959
+    },
+    {
+      "theme": "Generative AI",
+      "rank": 3,
+      "term": "language",
+      "weight": 0.3125
+    },
+    {
+      "theme": "Generative AI",
+      "rank": 4,
+      "term": "generative",
+      "weight": 0.2717
+    },
+    {
+      "theme": "Generative AI",
+      "rank": 5,
+      "term": "foundation",
+      "weight": 0.2604
+    },
+    {
+      "theme": "Generative AI",
+      "rank": 6,
+      "term": "generation",
+      "weight": 0.2309
+    },
+    {
+      "theme": "Generative AI",
+      "rank": 7,
+      "term": "copilot",
+      "weight": 0.2138
+    },
+    {
+      "theme": "Generative AI",
+      "rank": 8,
+      "term": "content",
+      "weight": 0.2066
+    },
+    {
+      "theme": "Generative AI",
+      "rank": 9,
+      "term": "language models",
+      "weight": 0.1979
+    },
+    {
+      "theme": "Generative AI",
+      "rank": 10,
+      "term": "large language models",
+      "weight": 0.1979
+    },
+    {
+      "theme": "Generative AI",
+      "rank": 11,
+      "term": "large",
+      "weight": 0.1924
+    },
+    {
+      "theme": "Generative AI",
+      "rank": 12,
+      "term": "model",
+      "weight": 0.1858
+    },
+    {
+      "theme": "Generative AI",
+      "rank": 13,
+      "term": "models",
+      "weight": 0.1858
+    },
+    {
+      "theme": "Generative AI",
+      "rank": 14,
+      "term": "generative ai",
+      "weight": 0.1563
+    },
+    {
+      "theme": "Generative AI",
+      "rank": 15,
+      "term": "prompt",
+      "weight": 0.1488
+    },
+    {
+      "theme": "Generative AI",
+      "rank": 16,
+      "term": "automation",
+      "weight": 0.12
+    },
+    {
+      "theme": "Generative AI",
+      "rank": 17,
+      "term": "ai",
+      "weight": 0.1155
+    },
+    {
+      "theme": "Generative AI",
+      "rank": 18,
+      "term": "engineering",
+      "weight": 0.1071
+    },
+    {
+      "theme": "Generative AI",
+      "rank": 19,
+      "term": "use",
+      "weight": 0.0962
+    },
+    {
+      "theme": "Cloud Transformation",
+      "rank": 1,
+      "term": "cloud",
+      "weight": 0.6076
+    },
+    {
+      "theme": "Cloud Transformation",
+      "rank": 2,
+      "term": "migration",
+      "weight": 0.4929
+    },
+    {
+      "theme": "Cloud Transformation",
+      "rank": 3,
+      "term": "native",
+      "weight": 0.3465
+    },
+    {
+      "theme": "Cloud Transformation",
+      "rank": 4,
+      "term": "infrastructure",
+      "weight": 0.2097
+    },
+    {
+      "theme": "Cloud Transformation",
+      "rank": 5,
+      "term": "data",
+      "weight": 0.1889
+    },
+    {
+      "theme": "Cloud Transformation",
+      "rank": 6,
+      "term": "cloud computing",
+      "weight": 0.1832
+    },
+    {
+      "theme": "Cloud Transformation",
+      "rank": 7,
+      "term": "software service",
+      "weight": 0.1566
+    },
+    {
+      "theme": "Cloud Transformation",
+      "rank": 8,
+      "term": "computing",
+      "weight": 0.1495
+    },
+    {
+      "theme": "Cloud Transformation",
+      "rank": 9,
+      "term": "hybrid",
+      "weight": 0.143
+    },
+    {
+      "theme": "Cloud Transformation",
+      "rank": 10,
+      "term": "platform",
+      "weight": 0.1263
+    },
+    {
+      "theme": "Cloud Transformation",
+      "rank": 11,
+      "term": "platforms",
+      "weight": 0.1087
+    },
+    {
+      "theme": "Cloud Transformation",
+      "rank": 12,
+      "term": "applications",
+      "weight": 0.1049
+    },
+    {
+      "theme": "Cloud Transformation",
+      "rank": 13,
+      "term": "service",
+      "weight": 0.1012
+    },
+    {
+      "theme": "Cloud Transformation",
+      "rank": 14,
+      "term": "environments",
+      "weight": 0.1012
+    },
+    {
+      "theme": "Cloud Transformation",
+      "rank": 15,
+      "term": "models",
+      "weight": 0.0978
+    },
+    {
+      "theme": "Cloud Transformation",
+      "rank": 16,
+      "term": "software",
+      "weight": 0.0978
+    },
+    {
+      "theme": "Cloud Transformation",
+      "rank": 17,
+      "term": "operating",
+      "weight": 0.0944
+    },
+    {
+      "theme": "Cybersecurity",
+      "rank": 1,
+      "term": "security",
+      "weight": 0.4619
+    },
+    {
+      "theme": "Cybersecurity",
+      "rank": 2,
+      "term": "identity",
+      "weight": 0.3752
+    },
+    {
+      "theme": "Cybersecurity",
+      "rank": 3,
+      "term": "cyber",
+      "weight": 0.3126
+    },
+    {
+      "theme": "Cybersecurity",
+      "rank": 4,
+      "term": "privacy",
+      "weight": 0.248
+    },
+    {
+      "theme": "Cybersecurity",
+      "rank": 5,
+      "term": "cyber security",
+      "weight": 0.2376
+    },
+    {
+      "theme": "Cybersecurity",
+      "rank": 6,
+      "term": "security information",
+      "weight": 0.2221
+    },
+    {
+      "theme": "Cybersecurity",
+      "rank": 7,
+      "term": "data",
+      "weight": 0.2155
+    },
+    {
+      "theme": "Cybersecurity",
+      "rank": 8,
+      "term": "posture",
+      "weight": 0.209
+    },
+    {
+      "theme": "Cybersecurity",
+      "rank": 9,
+      "term": "resilience",
+      "weight": 0.1876
+    },
+    {
+      "theme": "Cybersecurity",
+      "rank": 10,
+      "term": "security privacy",
+      "weight": 0.1786
+    },
+    {
+      "theme": "Cybersecurity",
+      "rank": 11,
+      "term": "zero",
+      "weight": 0.15
+    },
+    {
+      "theme": "Cybersecurity",
+      "rank": 12,
+      "term": "data privacy",
+      "weight": 0.1441
+    },
+    {
+      "theme": "Cybersecurity",
+      "rank": 13,
+      "term": "data security",
+      "weight": 0.1441
+    },
+    {
+      "theme": "Cybersecurity",
+      "rank": 14,
+      "term": "threat",
+      "weight": 0.1335
+    },
+    {
+      "theme": "Cybersecurity",
+      "rank": 15,
+      "term": "ransomware",
+      "weight": 0.1335
+    },
+    {
+      "theme": "Cybersecurity",
+      "rank": 16,
+      "term": "trust",
+      "weight": 0.124
+    },
+    {
+      "theme": "Cybersecurity",
+      "rank": 17,
+      "term": "information security",
+      "weight": 0.124
+    },
+    {
+      "theme": "Cybersecurity",
+      "rank": 18,
+      "term": "detection",
+      "weight": 0.1155
+    },
+    {
+      "theme": "Cybersecurity",
+      "rank": 19,
+      "term": "access",
+      "weight": 0.1155
+    },
+    {
+      "theme": "Cybersecurity",
+      "rank": 20,
+      "term": "regulatory",
+      "weight": 0.1155
+    },
+    {
+      "theme": "Supply Chain Resilience",
+      "rank": 1,
+      "term": "resilience",
+      "weight": 0.4553
+    },
+    {
+      "theme": "Supply Chain Resilience",
+      "rank": 2,
+      "term": "logistics",
+      "weight": 0.3364
+    },
+    {
+      "theme": "Supply Chain Resilience",
+      "rank": 3,
+      "term": "supplier",
+      "weight": 0.3239
+    },
+    {
+      "theme": "Supply Chain Resilience",
+      "rank": 4,
+      "term": "risk operational",
+      "weight": 0.3114
+    },
+    {
+      "theme": "Supply Chain Resilience",
+      "rank": 5,
+      "term": "inventory",
+      "weight": 0.3009
+    },
+    {
+      "theme": "Supply Chain Resilience",
+      "rank": 6,
+      "term": "risk",
+      "weight": 0.2706
+    },
+    {
+      "theme": "Supply Chain Resilience",
+      "rank": 7,
+      "term": "redesign",
+      "weight": 0.2276
+    },
+    {
+      "theme": "Supply Chain Resilience",
+      "rank": 8,
+      "term": "procurement",
+      "weight": 0.2168
+    },
+    {
+      "theme": "Supply Chain Resilience",
+      "rank": 9,
+      "term": "localization",
+      "weight": 0.2069
+    },
+    {
+      "theme": "Supply Chain Resilience",
+      "rank": 10,
+      "term": "optimization",
+      "weight": 0.2069
+    },
+    {
+      "theme": "Supply Chain Resilience",
+      "rank": 11,
+      "term": "continuity",
+      "weight": 0.1682
+    },
+    {
+      "theme": "Supply Chain Resilience",
+      "rank": 12,
+      "term": "strategy",
+      "weight": 0.1505
+    },
+    {
+      "theme": "Supply Chain Resilience",
+      "rank": 13,
+      "term": "chain",
+      "weight": 0.1401
+    },
+    {
+      "theme": "Supply Chain Resilience",
+      "rank": 14,
+      "term": "supply",
+      "weight": 0.1401
+    },
+    {
+      "theme": "Supply Chain Resilience",
+      "rank": 15,
+      "term": "operational",
+      "weight": 0.1401
+    },
+    {
+      "theme": "Supply Chain Resilience",
+      "rank": 16,
+      "term": "supply chain",
+      "weight": 0.1401
+    },
+    {
+      "theme": "Cost Optimization",
+      "rank": 1,
+      "term": "cost",
+      "weight": 0.3898
+    },
+    {
+      "theme": "Cost Optimization",
+      "rank": 2,
+      "term": "restructuring",
+      "weight": 0.3243
+    },
+    {
+      "theme": "Cost Optimization",
+      "rank": 3,
+      "term": "productivity",
+      "weight": 0.3003
+    },
+    {
+      "theme": "Cost Optimization",
+      "rank": 4,
+      "term": "cost optimization",
+      "weight": 0.2887
+    },
+    {
+      "theme": "Cost Optimization",
+      "rank": 5,
+      "term": "expansion",
+      "weight": 0.2692
+    },
+    {
+      "theme": "Cost Optimization",
+      "rank": 6,
+      "term": "efficiency",
+      "weight": 0.2692
+    },
+    {
+      "theme": "Cost Optimization",
+      "rank": 7,
+      "term": "expense management",
+      "weight": 0.2674
+    },
+    {
+      "theme": "Cost Optimization",
+      "rank": 8,
+      "term": "margin",
+      "weight": 0.2599
+    },
+    {
+      "theme": "Cost Optimization",
+      "rank": 9,
+      "term": "cost reduction",
+      "weight": 0.2499
+    },
+    {
+      "theme": "Cost Optimization",
+      "rank": 10,
+      "term": "operating",
+      "weight": 0.2424
+    },
+    {
+      "theme": "Cost Optimization",
+      "rank": 11,
+      "term": "reduction cost",
+      "weight": 0.201
+    },
+    {
+      "theme": "Cost Optimization",
+      "rank": 12,
+      "term": "optimization",
+      "weight": 0.1919
+    },
+    {
+      "theme": "Cost Optimization",
+      "rank": 13,
+      "term": "leverage",
+      "weight": 0.1395
+    },
+    {
+      "theme": "Cost Optimization",
+      "rank": 14,
+      "term": "programs",
+      "weight": 0.1299
+    },
+    {
+      "theme": "Cost Optimization",
+      "rank": 15,
+      "term": "management",
+      "weight": 0.1299
+    },
+    {
+      "theme": "Cost Optimization",
+      "rank": 16,
+      "term": "reduction",
+      "weight": 0.1299
+    },
+    {
+      "theme": "Cost Optimization",
+      "rank": 17,
+      "term": "expense",
+      "weight": 0.1299
+    },
+    {
+      "theme": "Digital Transformation",
+      "rank": 1,
+      "term": "digital",
+      "weight": 0.5445
+    },
+    {
+      "theme": "Digital Transformation",
+      "rank": 2,
+      "term": "digital capabilities",
+      "weight": 0.2817
+    },
+    {
+      "theme": "Digital Transformation",
+      "rank": 3,
+      "term": "digital transformation",
+      "weight": 0.2817
+    },
+    {
+      "theme": "Digital Transformation",
+      "rank": 4,
+      "term": "workflows",
+      "weight": 0.2609
+    },
+    {
+      "theme": "Digital Transformation",
+      "rank": 5,
+      "term": "customer",
+      "weight": 0.2536
+    },
+    {
+      "theme": "Digital Transformation",
+      "rank": 6,
+      "term": "digital platform",
+      "weight": 0.2438
+    },
+    {
+      "theme": "Digital Transformation",
+      "rank": 7,
+      "term": "customer experience",
+      "weight": 0.2294
+    },
+    {
+      "theme": "Digital Transformation",
+      "rank": 8,
+      "term": "omnichannel",
+      "weight": 0.1961
+    },
+    {
+      "theme": "Digital Transformation",
+      "rank": 9,
+      "term": "business models",
+      "weight": 0.1961
+    },
+    {
+      "theme": "Digital Transformation",
+      "rank": 10,
+      "term": "transformation",
+      "weight": 0.1791
+    },
+    {
+      "theme": "Digital Transformation",
+      "rank": 11,
+      "term": "platform",
+      "weight": 0.1582
+    },
+    {
+      "theme": "Digital Transformation",
+      "rank": 12,
+      "term": "commerce",
+      "weight": 0.1522
+    },
+    {
+      "theme": "Digital Transformation",
+      "rank": 13,
+      "term": "platforms",
+      "weight": 0.1361
+    },
+    {
+      "theme": "Digital Transformation",
+      "rank": 14,
+      "term": "capabilities",
+      "weight": 0.1361
+    },
+    {
+      "theme": "Digital Transformation",
+      "rank": 15,
+      "term": "technology",
+      "weight": 0.1268
+    },
+    {
+      "theme": "Digital Transformation",
+      "rank": 16,
+      "term": "business",
+      "weight": 0.1268
+    },
+    {
+      "theme": "Digital Transformation",
+      "rank": 17,
+      "term": "experience",
+      "weight": 0.1224
+    },
+    {
+      "theme": "Digital Transformation",
+      "rank": 18,
+      "term": "models",
+      "weight": 0.1224
+    },
+    {
+      "theme": "Digital Transformation",
+      "rank": 19,
+      "term": "enterprise",
+      "weight": 0.1224
+    },
+    {
+      "theme": "Digital Transformation",
+      "rank": 20,
+      "term": "products",
+      "weight": 0.1224
+    },
+    {
+      "theme": "Automation",
+      "rank": 1,
+      "term": "automation",
+      "weight": 0.8453
+    },
+    {
+      "theme": "Automation",
+      "rank": 2,
+      "term": "intelligent",
+      "weight": 0.3312
+    },
+    {
+      "theme": "Automation",
+      "rank": 3,
+      "term": "process",
+      "weight": 0.2903
+    },
+    {
+      "theme": "Automation",
+      "rank": 4,
+      "term": "autonomous",
+      "weight": 0.1572
+    },
+    {
+      "theme": "Automation",
+      "rank": 5,
+      "term": "redesign",
+      "weight": 0.1572
+    },
+    {
+      "theme": "Automation",
+      "rank": 6,
+      "term": "productivity",
+      "weight": 0.1118
+    },
+    {
+      "theme": "Automation",
+      "rank": 7,
+      "term": "enabled",
+      "weight": 0.1077
+    },
+    {
+      "theme": "Automation",
+      "rank": 8,
+      "term": "systems",
+      "weight": 0.0968
+    },
+    {
+      "theme": "Automation",
+      "rank": 9,
+      "term": "software",
+      "weight": 0.0934
+    },
+    {
+      "theme": "Workforce Transformation",
+      "rank": 1,
+      "term": "hybrid",
+      "weight": 0.4102
+    },
+    {
+      "theme": "Workforce Transformation",
+      "rank": 2,
+      "term": "organizational",
+      "weight": 0.3772
+    },
+    {
+      "theme": "Workforce Transformation",
+      "rank": 3,
+      "term": "strategy",
+      "weight": 0.3118
+    },
+    {
+      "theme": "Workforce Transformation",
+      "rank": 4,
+      "term": "workforce",
+      "weight": 0.3008
+    },
+    {
+      "theme": "Workforce Transformation",
+      "rank": 5,
+      "term": "work",
+      "weight": 0.2904
+    },
+    {
+      "theme": "Workforce Transformation",
+      "rank": 6,
+      "term": "change",
+      "weight": 0.2904
+    },
+    {
+      "theme": "Workforce Transformation",
+      "rank": 7,
+      "term": "talent",
+      "weight": 0.2904
+    },
+    {
+      "theme": "Workforce Transformation",
+      "rank": 8,
+      "term": "redesign",
+      "weight": 0.2359
+    },
+    {
+      "theme": "Workforce Transformation",
+      "rank": 9,
+      "term": "employee experience",
+      "weight": 0.2359
+    },
+    {
+      "theme": "Workforce Transformation",
+      "rank": 10,
+      "term": "transformation",
+      "weight": 0.2051
+    },
+    {
+      "theme": "Workforce Transformation",
+      "rank": 11,
+      "term": "capability",
+      "weight": 0.1743
+    },
+    {
+      "theme": "Workforce Transformation",
+      "rank": 12,
+      "term": "building",
+      "weight": 0.1559
+    },
+    {
+      "theme": "Workforce Transformation",
+      "rank": 13,
+      "term": "employee",
+      "weight": 0.1452
+    },
+    {
+      "theme": "Workforce Transformation",
+      "rank": 14,
+      "term": "experience",
+      "weight": 0.1402
+    },
+    {
+      "theme": "Sustainability / ESG",
+      "rank": 1,
+      "term": "esg",
+      "weight": 0.4229
+    },
+    {
+      "theme": "Sustainability / ESG",
+      "rank": 2,
+      "term": "energy",
+      "weight": 0.3541
+    },
+    {
+      "theme": "Sustainability / ESG",
+      "rank": 3,
+      "term": "carbon",
+      "weight": 0.2976
+    },
+    {
+      "theme": "Sustainability / ESG",
+      "rank": 4,
+      "term": "climate risk",
+      "weight": 0.2676
+    },
+    {
+      "theme": "Sustainability / ESG",
+      "rank": 5,
+      "term": "efficiency sustainability",
+      "weight": 0.2443
+    },
+    {
+      "theme": "Sustainability / ESG",
+      "rank": 6,
+      "term": "sustainability",
+      "weight": 0.2361
+    },
+    {
+      "theme": "Sustainability / ESG",
+      "rank": 7,
+      "term": "climate",
+      "weight": 0.2199
+    },
+    {
+      "theme": "Sustainability / ESG",
+      "rank": 8,
+      "term": "transition",
+      "weight": 0.2199
+    },
+    {
+      "theme": "Sustainability / ESG",
+      "rank": 9,
+      "term": "energy transition",
+      "weight": 0.2115
+    },
+    {
+      "theme": "Sustainability / ESG",
+      "rank": 10,
+      "term": "net zero",
+      "weight": 0.2115
+    },
+    {
+      "theme": "Sustainability / ESG",
+      "rank": 11,
+      "term": "energy efficiency",
+      "weight": 0.2115
+    },
+    {
+      "theme": "Sustainability / ESG",
+      "rank": 12,
+      "term": "renewable",
+      "weight": 0.199
+    },
+    {
+      "theme": "Sustainability / ESG",
+      "rank": 13,
+      "term": "sustainability reporting",
+      "weight": 0.1881
+    },
+    {
+      "theme": "Sustainability / ESG",
+      "rank": 14,
+      "term": "emissions",
+      "weight": 0.1488
+    },
+    {
+      "theme": "Sustainability / ESG",
+      "rank": 15,
+      "term": "zero",
+      "weight": 0.1428
+    },
+    {
+      "theme": "Sustainability / ESG",
+      "rank": 16,
+      "term": "efficiency",
+      "weight": 0.1139
+    },
+    {
+      "theme": "Sustainability / ESG",
+      "rank": 17,
+      "term": "reduction",
+      "weight": 0.1099
+    },
+    {
+      "theme": "Sustainability / ESG",
+      "rank": 18,
+      "term": "reporting",
+      "weight": 0.1099
+    },
+    {
+      "theme": "Sustainability / ESG",
+      "rank": 19,
+      "term": "net",
+      "weight": 0.1099
+    },
+    {
+      "theme": "Sustainability / ESG",
+      "rank": 20,
+      "term": "governance",
+      "weight": 0.1062
+    }
+  ],
+  "limitations": [
+    "Current version uses real SEC EDGAR filings from a 2-filing smoke test.",
+    "This is not a finished market-wide study.",
+    "Scores are derived analytical constructs, not company-reported metrics.",
+    "No synthetic analytics data is used."
+  ]
+}
