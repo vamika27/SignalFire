@@ -1,0 +1,105 @@
+{
+  "generatedAt": "2026-06-20T18:19:50.607679+00:00",
+  "lastPipelineRun": "2026-06-20T18:04:52.673078+00:00",
+  "scope": "2-filing SEC smoke test",
+  "dataSource": "SEC EDGAR 10-K filings",
+  "kpis": {
+    "companiesAnalyzed": 10,
+    "secDocumentsProcessed": 19,
+    "topEmergingTheme": "Artificial Intelligence",
+    "highestConsultingOpportunityScore": 59.5,
+    "themeScoresGenerated": 190,
+    "lastPipelineRun": "2026-06-20T18:04:52.673078+00:00"
+  },
+  "topTheme": {
+    "theme": "Artificial Intelligence",
+    "averageMomentum": 51.8,
+    "averageOpportunity": 36.5
+  },
+  "opportunityLeader": {
+    "company": "Pfizer",
+    "industry": "Healthcare",
+    "theme": "Generative AI",
+    "consultingOpportunityScore": 59.5,
+    "signalFireScore": 33.4,
+    "strategicRiskScore": 21.9
+  },
+  "brief": {
+    "situation": "Public companies disclose strategic priorities before those shifts are fully visible in financial performance.",
+    "signal": "The current SEC smoke test identifies Artificial Intelligence as the strongest emerging theme by average momentum across the processed company-theme scorecard.",
+    "implication": "The output is useful for validating the product workflow and interaction model, not for broad market conclusions yet.",
+    "recommendedNextRead": "Review the Opportunity Radar and company briefing sheets, then expand coverage before using results for portfolio-level analysis."
+  },
+  "coverage": [
+    {
+      "ticker": "AAPL",
+      "company": "Apple",
+      "documents": 2,
+      "minDate": "2024-09-28T00:00:00",
+      "maxDate": "2025-09-27T00:00:00"
+    },
+    {
+      "ticker": "AMZN",
+      "company": "Amazon",
+      "documents": 2,
+      "minDate": "2024-12-31T00:00:00",
+      "maxDate": "2025-12-31T00:00:00"
+    },
+    {
+      "ticker": "CRM",
+      "company": "Salesforce",
+      "documents": 2,
+      "minDate": "2025-01-31T00:00:00",
+      "maxDate": "2026-01-31T00:00:00"
+    },
+    {
+      "ticker": "F",
+      "company": "Ford Motor Company",
+      "documents": 2,
+      "minDate": "2024-12-31T00:00:00",
+      "maxDate": "2025-12-31T00:00:00"
+    },
+    {
+      "ticker": "JPM",
+      "company": "JPMorgan Chase",
+      "documents": 1,
+      "minDate": "2025-12-31T00:00:00",
+      "maxDate": "2025-12-31T00:00:00"
+    },
+    {
+      "ticker": "MSFT",
+      "company": "Microsoft",
+      "documents": 2,
+      "minDate": "2024-06-30T00:00:00",
+      "maxDate": "2025-06-30T00:00:00"
+    },
+    {
+      "ticker": "PFE",
+      "company": "Pfizer",
+      "documents": 2,
+      "minDate": "2024-12-31T00:00:00",
+      "maxDate": "2025-12-31T00:00:00"
+    },
+    {
+      "ticker": "TGT",
+      "company": "Target",
+      "documents": 2,
+      "minDate": "2025-02-01T00:00:00",
+      "maxDate": "2026-01-31T00:00:00"
+    },
+    {
+      "ticker": "WMT",
+      "company": "Walmart",
+      "documents": 2,
+      "minDate": "2025-01-31T00:00:00",
+      "maxDate": "2026-01-31T00:00:00"
+    },
+    {
+      "ticker": "XOM",
+      "company": "Exxon Mobil",
+      "documents": 2,
+      "minDate": "2024-12-31T00:00:00",
+      "maxDate": "2025-12-31T00:00:00"
+    }
+  ]
+}

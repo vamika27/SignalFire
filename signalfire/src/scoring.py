@@ -133,17 +133,18 @@ def build_company_theme_scorecard(
         .reset_index(name="theme_volatility")
     )
     scorecard = scorecard.merge(volatility, on=["ticker", "theme"], how="left")
+    scorecard["theme_volatility"] = scorecard["theme_volatility"].fillna(0)
     scorecard["transformation_readiness_score"] = (
         0.40 * scorecard["strategic_consistency_score"].fillna(0)
         + 0.25 * scorecard["source_breadth_score"].fillna(0)
         + 0.20 * scorecard["theme_intensity_score"].fillna(0)
-        + 0.15 * (100 - min_max(scorecard["theme_volatility"].fillna(0)))
+        + 0.15 * (100 - min_max(scorecard["theme_volatility"]))
     ).round(1)
 
     scorecard["strategic_risk_score"] = (
         0.45 * scorecard["organizational_disruption_score"].fillna(0)
         + 0.30 * (100 - scorecard["transformation_readiness_score"].fillna(0))
-        + 0.25 * min_max(scorecard["theme_volatility"].fillna(0))
+        + 0.25 * min_max(scorecard["theme_volatility"])
     ).round(1)
     return scorecard.sort_values("consulting_opportunity_score", ascending=False)
 

@@ -1,0 +1,1222 @@
+[
+  {
+    "company": "Amazon",
+    "industry": "Consumer Discretionary",
+    "dominantTheme": "Artificial Intelligence",
+    "themeMomentum": 84.9,
+    "consultingOpportunityScore": 55.3,
+    "strategicRiskScore": 44.9,
+    "emergingTheme": "Artificial Intelligence",
+    "emergingThemeGrowthRate": 47.8144,
+    "ticker": "AMZN",
+    "signalFireScore": 39.0,
+    "readinessScore": 49.2,
+    "topKeywords": [
+      "0001018724",
+      "31 0001018724",
+      "12 31 0001018724",
+      "amzn",
+      "0001018724 gaap",
+      "31 0001018724 gaap",
+      "12 31",
+      "2025",
+      "2024",
+      "31"
+    ],
+    "themeEvolution": [
+      {
+        "year": 2024,
+        "theme": "Artificial Intelligence",
+        "theme_intensity": 0.0179
+      },
+      {
+        "year": 2024,
+        "theme": "Automation",
+        "theme_intensity": 0.0041
+      },
+      {
+        "year": 2024,
+        "theme": "Cloud Transformation",
+        "theme_intensity": 0.0224
+      },
+      {
+        "year": 2024,
+        "theme": "Cost Optimization",
+        "theme_intensity": 0.0286
+      },
+      {
+        "year": 2024,
+        "theme": "Cybersecurity",
+        "theme_intensity": 0.0251
+      },
+      {
+        "year": 2024,
+        "theme": "Digital Transformation",
+        "theme_intensity": 0.0393
+      },
+      {
+        "year": 2024,
+        "theme": "Generative AI",
+        "theme_intensity": 0.0098
+      },
+      {
+        "year": 2024,
+        "theme": "Supply Chain Resilience",
+        "theme_intensity": 0.012
+      },
+      {
+        "year": 2024,
+        "theme": "Sustainability / ESG",
+        "theme_intensity": 0.0123
+      },
+      {
+        "year": 2024,
+        "theme": "Workforce Transformation",
+        "theme_intensity": 0.0074
+      },
+      {
+        "year": 2025,
+        "theme": "Artificial Intelligence",
+        "theme_intensity": 0.0264
+      },
+      {
+        "year": 2025,
+        "theme": "Automation",
+        "theme_intensity": 0.0043
+      },
+      {
+        "year": 2025,
+        "theme": "Cloud Transformation",
+        "theme_intensity": 0.0221
+      },
+      {
+        "year": 2025,
+        "theme": "Cost Optimization",
+        "theme_intensity": 0.0273
+      },
+      {
+        "year": 2025,
+        "theme": "Cybersecurity",
+        "theme_intensity": 0.0241
+      },
+      {
+        "year": 2025,
+        "theme": "Digital Transformation",
+        "theme_intensity": 0.0377
+      },
+      {
+        "year": 2025,
+        "theme": "Generative AI",
+        "theme_intensity": 0.009
+      },
+      {
+        "year": 2025,
+        "theme": "Supply Chain Resilience",
+        "theme_intensity": 0.012
+      },
+      {
+        "year": 2025,
+        "theme": "Sustainability / ESG",
+        "theme_intensity": 0.0131
+      },
+      {
+        "year": 2025,
+        "theme": "Workforce Transformation",
+        "theme_intensity": 0.0066
+      }
+    ]
+  },
+  {
+    "company": "Pfizer",
+    "industry": "Healthcare",
+    "dominantTheme": "Artificial Intelligence",
+    "themeMomentum": 82.5,
+    "consultingOpportunityScore": 53.0,
+    "strategicRiskScore": 28.1,
+    "emergingTheme": "Generative AI",
+    "emergingThemeGrowthRate": 60.8423,
+    "ticker": "PFE",
+    "signalFireScore": 33.4,
+    "readinessScore": 45.6,
+    "topKeywords": [
+      "0000078003",
+      "31 0000078003",
+      "12 31 0000078003",
+      "pfe",
+      "0000078003 gaap",
+      "12 31",
+      "31 0000078003 gaap",
+      "gaap",
+      "0000078003 pfe",
+      "31 0000078003 pfe"
+    ],
+    "themeEvolution": [
+      {
+        "year": 2024,
+        "theme": "Artificial Intelligence",
+        "theme_intensity": 0.0074
+      },
+      {
+        "year": 2024,
+        "theme": "Automation",
+        "theme_intensity": 0.003
+      },
+      {
+        "year": 2024,
+        "theme": "Cloud Transformation",
+        "theme_intensity": 0.0041
+      },
+      {
+        "year": 2024,
+        "theme": "Cost Optimization",
+        "theme_intensity": 0.0199
+      },
+      {
+        "year": 2024,
+        "theme": "Cybersecurity",
+        "theme_intensity": 0.0136
+      },
+      {
+        "year": 2024,
+        "theme": "Digital Transformation",
+        "theme_intensity": 0.0162
+      },
+      {
+        "year": 2024,
+        "theme": "Generative AI",
+        "theme_intensity": 0.0023
+      },
+      {
+        "year": 2024,
+        "theme": "Supply Chain Resilience",
+        "theme_intensity": 0.0103
+      },
+      {
+        "year": 2024,
+        "theme": "Sustainability / ESG",
+        "theme_intensity": 0.0086
+      },
+      {
+        "year": 2024,
+        "theme": "Workforce Transformation",
+        "theme_intensity": 0.0072
+      },
+      {
+        "year": 2025,
+        "theme": "Artificial Intelligence",
+        "theme_intensity": 0.0108
+      },
+      {
+        "year": 2025,
+        "theme": "Automation",
+        "theme_intensity": 0.0043
+      },
+      {
+        "year": 2025,
+        "theme": "Cloud Transformation",
+        "theme_intensity": 0.005
+      },
+      {
+        "year": 2025,
+        "theme": "Cost Optimization",
+        "theme_intensity": 0.0212
+      },
+      {
+        "year": 2025,
+        "theme": "Cybersecurity",
+        "theme_intensity": 0.0153
+      },
+      {
+        "year": 2025,
+        "theme": "Digital Transformation",
+        "theme_intensity": 0.0184
+      },
+      {
+        "year": 2025,
+        "theme": "Generative AI",
+        "theme_intensity": 0.0037
+      },
+      {
+        "year": 2025,
+        "theme": "Supply Chain Resilience",
+        "theme_intensity": 0.0112
+      },
+      {
+        "year": 2025,
+        "theme": "Sustainability / ESG",
+        "theme_intensity": 0.0089
+      },
+      {
+        "year": 2025,
+        "theme": "Workforce Transformation",
+        "theme_intensity": 0.007
+      }
+    ]
+  },
+  {
+    "company": "Target",
+    "industry": "Consumer Discretionary",
+    "dominantTheme": "Digital Transformation",
+    "themeMomentum": 58.5,
+    "consultingOpportunityScore": 48.4,
+    "strategicRiskScore": 32.4,
+    "emergingTheme": "Automation",
+    "emergingThemeGrowthRate": 51.0957,
+    "ticker": "TGT",
+    "signalFireScore": 45.8,
+    "readinessScore": 68.5,
+    "topKeywords": [
+      "0000027419",
+      "0000027419 gaap",
+      "01 31 0000027419",
+      "01 0000027419",
+      "31 0000027419",
+      "02 01 0000027419",
+      "02",
+      "2025",
+      "2024",
+      "2026 01 31"
+    ],
+    "themeEvolution": [
+      {
+        "year": 2025,
+        "theme": "Artificial Intelligence",
+        "theme_intensity": 0.0119
+      },
+      {
+        "year": 2025,
+        "theme": "Automation",
+        "theme_intensity": 0.0032
+      },
+      {
+        "year": 2025,
+        "theme": "Cloud Transformation",
+        "theme_intensity": 0.0101
+      },
+      {
+        "year": 2025,
+        "theme": "Cost Optimization",
+        "theme_intensity": 0.0281
+      },
+      {
+        "year": 2025,
+        "theme": "Cybersecurity",
+        "theme_intensity": 0.0453
+      },
+      {
+        "year": 2025,
+        "theme": "Digital Transformation",
+        "theme_intensity": 0.0327
+      },
+      {
+        "year": 2025,
+        "theme": "Generative AI",
+        "theme_intensity": 0.0056
+      },
+      {
+        "year": 2025,
+        "theme": "Supply Chain Resilience",
+        "theme_intensity": 0.0315
+      },
+      {
+        "year": 2025,
+        "theme": "Sustainability / ESG",
+        "theme_intensity": 0.0138
+      },
+      {
+        "year": 2025,
+        "theme": "Workforce Transformation",
+        "theme_intensity": 0.0156
+      },
+      {
+        "year": 2026,
+        "theme": "Artificial Intelligence",
+        "theme_intensity": 0.0129
+      },
+      {
+        "year": 2026,
+        "theme": "Automation",
+        "theme_intensity": 0.0048
+      },
+      {
+        "year": 2026,
+        "theme": "Cloud Transformation",
+        "theme_intensity": 0.011
+      },
+      {
+        "year": 2026,
+        "theme": "Cost Optimization",
+        "theme_intensity": 0.0289
+      },
+      {
+        "year": 2026,
+        "theme": "Cybersecurity",
+        "theme_intensity": 0.0438
+      },
+      {
+        "year": 2026,
+        "theme": "Digital Transformation",
+        "theme_intensity": 0.0395
+      },
+      {
+        "year": 2026,
+        "theme": "Generative AI",
+        "theme_intensity": 0.0052
+      },
+      {
+        "year": 2026,
+        "theme": "Supply Chain Resilience",
+        "theme_intensity": 0.0297
+      },
+      {
+        "year": 2026,
+        "theme": "Sustainability / ESG",
+        "theme_intensity": 0.0136
+      },
+      {
+        "year": 2026,
+        "theme": "Workforce Transformation",
+        "theme_intensity": 0.0199
+      }
+    ]
+  },
+  {
+    "company": "Microsoft",
+    "industry": "Technology",
+    "dominantTheme": "Cloud Transformation",
+    "themeMomentum": 35.1,
+    "consultingOpportunityScore": 42.0,
+    "strategicRiskScore": 23.7,
+    "emergingTheme": "Supply Chain Resilience",
+    "emergingThemeGrowthRate": 5.8296,
+    "ticker": "MSFT",
+    "signalFireScore": 45.5,
+    "readinessScore": 53.2,
+    "topKeywords": [
+      "0000789019",
+      "30 0000789019",
+      "06 30 0000789019",
+      "0000789019 gaap",
+      "30 0000789019 gaap",
+      "msft",
+      "06 30",
+      "0000789019 msft",
+      "06",
+      "30"
+    ],
+    "themeEvolution": [
+      {
+        "year": 2024,
+        "theme": "Artificial Intelligence",
+        "theme_intensity": 0.0444
+      },
+      {
+        "year": 2024,
+        "theme": "Automation",
+        "theme_intensity": 0.0141
+      },
+      {
+        "year": 2024,
+        "theme": "Cloud Transformation",
+        "theme_intensity": 0.07
+      },
+      {
+        "year": 2024,
+        "theme": "Cost Optimization",
+        "theme_intensity": 0.0263
+      },
+      {
+        "year": 2024,
+        "theme": "Cybersecurity",
+        "theme_intensity": 0.041
+      },
+      {
+        "year": 2024,
+        "theme": "Digital Transformation",
+        "theme_intensity": 0.0455
+      },
+      {
+        "year": 2024,
+        "theme": "Generative AI",
+        "theme_intensity": 0.0251
+      },
+      {
+        "year": 2024,
+        "theme": "Supply Chain Resilience",
+        "theme_intensity": 0.0088
+      },
+      {
+        "year": 2024,
+        "theme": "Sustainability / ESG",
+        "theme_intensity": 0.0101
+      },
+      {
+        "year": 2024,
+        "theme": "Workforce Transformation",
+        "theme_intensity": 0.0141
+      },
+      {
+        "year": 2025,
+        "theme": "Artificial Intelligence",
+        "theme_intensity": 0.0395
+      },
+      {
+        "year": 2025,
+        "theme": "Automation",
+        "theme_intensity": 0.0124
+      },
+      {
+        "year": 2025,
+        "theme": "Cloud Transformation",
+        "theme_intensity": 0.0733
+      },
+      {
+        "year": 2025,
+        "theme": "Cost Optimization",
+        "theme_intensity": 0.0256
+      },
+      {
+        "year": 2025,
+        "theme": "Cybersecurity",
+        "theme_intensity": 0.0378
+      },
+      {
+        "year": 2025,
+        "theme": "Digital Transformation",
+        "theme_intensity": 0.0436
+      },
+      {
+        "year": 2025,
+        "theme": "Generative AI",
+        "theme_intensity": 0.0181
+      },
+      {
+        "year": 2025,
+        "theme": "Supply Chain Resilience",
+        "theme_intensity": 0.0093
+      },
+      {
+        "year": 2025,
+        "theme": "Sustainability / ESG",
+        "theme_intensity": 0.0094
+      },
+      {
+        "year": 2025,
+        "theme": "Workforce Transformation",
+        "theme_intensity": 0.0104
+      }
+    ]
+  },
+  {
+    "company": "Ford Motor Company",
+    "industry": "Industrials",
+    "dominantTheme": "Cost Optimization",
+    "themeMomentum": 52.4,
+    "consultingOpportunityScore": 38.8,
+    "strategicRiskScore": 23.7,
+    "emergingTheme": "Cost Optimization",
+    "emergingThemeGrowthRate": 14.6196,
+    "ticker": "F",
+    "signalFireScore": 32.7,
+    "readinessScore": 50.7,
+    "topKeywords": [
+      "0000037996",
+      "31 0000037996",
+      "12 31 0000037996",
+      "ford",
+      "0000037996 gaap",
+      "31 0000037996 gaap",
+      "gaap",
+      "12 31",
+      "31",
+      "ford credit"
+    ],
+    "themeEvolution": [
+      {
+        "year": 2024,
+        "theme": "Artificial Intelligence",
+        "theme_intensity": 0.0055
+      },
+      {
+        "year": 2024,
+        "theme": "Automation",
+        "theme_intensity": 0.0028
+      },
+      {
+        "year": 2024,
+        "theme": "Cloud Transformation",
+        "theme_intensity": 0.0057
+      },
+      {
+        "year": 2024,
+        "theme": "Cost Optimization",
+        "theme_intensity": 0.0206
+      },
+      {
+        "year": 2024,
+        "theme": "Cybersecurity",
+        "theme_intensity": 0.0102
+      },
+      {
+        "year": 2024,
+        "theme": "Digital Transformation",
+        "theme_intensity": 0.013
+      },
+      {
+        "year": 2024,
+        "theme": "Generative AI",
+        "theme_intensity": 0.0061
+      },
+      {
+        "year": 2024,
+        "theme": "Supply Chain Resilience",
+        "theme_intensity": 0.0121
+      },
+      {
+        "year": 2024,
+        "theme": "Sustainability / ESG",
+        "theme_intensity": 0.0129
+      },
+      {
+        "year": 2024,
+        "theme": "Workforce Transformation",
+        "theme_intensity": 0.0092
+      },
+      {
+        "year": 2025,
+        "theme": "Artificial Intelligence",
+        "theme_intensity": 0.0055
+      },
+      {
+        "year": 2025,
+        "theme": "Automation",
+        "theme_intensity": 0.003
+      },
+      {
+        "year": 2025,
+        "theme": "Cloud Transformation",
+        "theme_intensity": 0.0062
+      },
+      {
+        "year": 2025,
+        "theme": "Cost Optimization",
+        "theme_intensity": 0.0236
+      },
+      {
+        "year": 2025,
+        "theme": "Cybersecurity",
+        "theme_intensity": 0.0111
+      },
+      {
+        "year": 2025,
+        "theme": "Digital Transformation",
+        "theme_intensity": 0.0144
+      },
+      {
+        "year": 2025,
+        "theme": "Generative AI",
+        "theme_intensity": 0.0067
+      },
+      {
+        "year": 2025,
+        "theme": "Supply Chain Resilience",
+        "theme_intensity": 0.0136
+      },
+      {
+        "year": 2025,
+        "theme": "Sustainability / ESG",
+        "theme_intensity": 0.0143
+      },
+      {
+        "year": 2025,
+        "theme": "Workforce Transformation",
+        "theme_intensity": 0.0099
+      }
+    ]
+  },
+  {
+    "company": "Apple",
+    "industry": "Technology",
+    "dominantTheme": "Digital Transformation",
+    "themeMomentum": 28.6,
+    "consultingOpportunityScore": 34.5,
+    "strategicRiskScore": 27.3,
+    "emergingTheme": "Workforce Transformation",
+    "emergingThemeGrowthRate": 8.2895,
+    "ticker": "AAPL",
+    "signalFireScore": 19.5,
+    "readinessScore": 32.0,
+    "topKeywords": [
+      "company",
+      "0000320193",
+      "2024",
+      "2025",
+      "0000320193 gaap",
+      "2025 09 27",
+      "2024 09 28",
+      "09 27 0000320193",
+      "09 28 0000320193",
+      "27 0000320193"
+    ],
+    "themeEvolution": [
+      {
+        "year": 2024,
+        "theme": "Artificial Intelligence",
+        "theme_intensity": 0.0148
+      },
+      {
+        "year": 2024,
+        "theme": "Automation",
+        "theme_intensity": 0.0033
+      },
+      {
+        "year": 2024,
+        "theme": "Cloud Transformation",
+        "theme_intensity": 0.0132
+      },
+      {
+        "year": 2024,
+        "theme": "Cost Optimization",
+        "theme_intensity": 0.0181
+      },
+      {
+        "year": 2024,
+        "theme": "Cybersecurity",
+        "theme_intensity": 0.0262
+      },
+      {
+        "year": 2024,
+        "theme": "Digital Transformation",
+        "theme_intensity": 0.0349
+      },
+      {
+        "year": 2024,
+        "theme": "Generative AI",
+        "theme_intensity": 0.0079
+      },
+      {
+        "year": 2024,
+        "theme": "Supply Chain Resilience",
+        "theme_intensity": 0.0178
+      },
+      {
+        "year": 2024,
+        "theme": "Sustainability / ESG",
+        "theme_intensity": 0.0118
+      },
+      {
+        "year": 2024,
+        "theme": "Workforce Transformation",
+        "theme_intensity": 0.0064
+      },
+      {
+        "year": 2025,
+        "theme": "Artificial Intelligence",
+        "theme_intensity": 0.0161
+      },
+      {
+        "year": 2025,
+        "theme": "Automation",
+        "theme_intensity": 0.0029
+      },
+      {
+        "year": 2025,
+        "theme": "Cloud Transformation",
+        "theme_intensity": 0.013
+      },
+      {
+        "year": 2025,
+        "theme": "Cost Optimization",
+        "theme_intensity": 0.0175
+      },
+      {
+        "year": 2025,
+        "theme": "Cybersecurity",
+        "theme_intensity": 0.0244
+      },
+      {
+        "year": 2025,
+        "theme": "Digital Transformation",
+        "theme_intensity": 0.0326
+      },
+      {
+        "year": 2025,
+        "theme": "Generative AI",
+        "theme_intensity": 0.0072
+      },
+      {
+        "year": 2025,
+        "theme": "Supply Chain Resilience",
+        "theme_intensity": 0.0164
+      },
+      {
+        "year": 2025,
+        "theme": "Sustainability / ESG",
+        "theme_intensity": 0.0112
+      },
+      {
+        "year": 2025,
+        "theme": "Workforce Transformation",
+        "theme_intensity": 0.007
+      }
+    ]
+  },
+  {
+    "company": "Salesforce",
+    "industry": "Technology",
+    "dominantTheme": "Cloud Transformation",
+    "themeMomentum": 22.2,
+    "consultingOpportunityScore": 34.2,
+    "strategicRiskScore": 20.9,
+    "emergingTheme": "Generative AI",
+    "emergingThemeGrowthRate": 12.4345,
+    "ticker": "CRM",
+    "signalFireScore": 49.2,
+    "readinessScore": 78.3,
+    "topKeywords": [
+      "0001108524",
+      "31 0001108524",
+      "01 31 0001108524",
+      "0001108524 gaap",
+      "31 0001108524 gaap",
+      "01 31",
+      "01",
+      "31",
+      "company",
+      "gaap"
+    ],
+    "themeEvolution": [
+      {
+        "year": 2025,
+        "theme": "Artificial Intelligence",
+        "theme_intensity": 0.0417
+      },
+      {
+        "year": 2025,
+        "theme": "Automation",
+        "theme_intensity": 0.0106
+      },
+      {
+        "year": 2025,
+        "theme": "Cloud Transformation",
+        "theme_intensity": 0.0607
+      },
+      {
+        "year": 2025,
+        "theme": "Cost Optimization",
+        "theme_intensity": 0.0328
+      },
+      {
+        "year": 2025,
+        "theme": "Cybersecurity",
+        "theme_intensity": 0.0383
+      },
+      {
+        "year": 2025,
+        "theme": "Digital Transformation",
+        "theme_intensity": 0.052
+      },
+      {
+        "year": 2025,
+        "theme": "Generative AI",
+        "theme_intensity": 0.019
+      },
+      {
+        "year": 2025,
+        "theme": "Supply Chain Resilience",
+        "theme_intensity": 0.01
+      },
+      {
+        "year": 2025,
+        "theme": "Sustainability / ESG",
+        "theme_intensity": 0.014
+      },
+      {
+        "year": 2025,
+        "theme": "Workforce Transformation",
+        "theme_intensity": 0.0198
+      },
+      {
+        "year": 2026,
+        "theme": "Artificial Intelligence",
+        "theme_intensity": 0.0432
+      },
+      {
+        "year": 2026,
+        "theme": "Automation",
+        "theme_intensity": 0.0093
+      },
+      {
+        "year": 2026,
+        "theme": "Cloud Transformation",
+        "theme_intensity": 0.0562
+      },
+      {
+        "year": 2026,
+        "theme": "Cost Optimization",
+        "theme_intensity": 0.0295
+      },
+      {
+        "year": 2026,
+        "theme": "Cybersecurity",
+        "theme_intensity": 0.039
+      },
+      {
+        "year": 2026,
+        "theme": "Digital Transformation",
+        "theme_intensity": 0.0504
+      },
+      {
+        "year": 2026,
+        "theme": "Generative AI",
+        "theme_intensity": 0.0213
+      },
+      {
+        "year": 2026,
+        "theme": "Supply Chain Resilience",
+        "theme_intensity": 0.0098
+      },
+      {
+        "year": 2026,
+        "theme": "Sustainability / ESG",
+        "theme_intensity": 0.0118
+      },
+      {
+        "year": 2026,
+        "theme": "Workforce Transformation",
+        "theme_intensity": 0.0183
+      }
+    ]
+  },
+  {
+    "company": "Walmart",
+    "industry": "Consumer Staples",
+    "dominantTheme": "Cybersecurity",
+    "themeMomentum": 39.6,
+    "consultingOpportunityScore": 33.6,
+    "strategicRiskScore": 18.2,
+    "emergingTheme": "Artificial Intelligence",
+    "emergingThemeGrowthRate": 12.8059,
+    "ticker": "WMT",
+    "signalFireScore": 28.4,
+    "readinessScore": 47.5,
+    "topKeywords": [
+      "0000104169",
+      "31 0000104169",
+      "01 31 0000104169",
+      "wmt",
+      "01 31",
+      "01",
+      "0000104169 wmt",
+      "0000104169 gaap",
+      "31 0000104169 wmt",
+      "31 0000104169 gaap"
+    ],
+    "themeEvolution": [
+      {
+        "year": 2025,
+        "theme": "Artificial Intelligence",
+        "theme_intensity": 0.0065
+      },
+      {
+        "year": 2025,
+        "theme": "Automation",
+        "theme_intensity": 0.0048
+      },
+      {
+        "year": 2025,
+        "theme": "Cloud Transformation",
+        "theme_intensity": 0.0096
+      },
+      {
+        "year": 2025,
+        "theme": "Cost Optimization",
+        "theme_intensity": 0.0196
+      },
+      {
+        "year": 2025,
+        "theme": "Cybersecurity",
+        "theme_intensity": 0.0295
+      },
+      {
+        "year": 2025,
+        "theme": "Digital Transformation",
+        "theme_intensity": 0.0232
+      },
+      {
+        "year": 2025,
+        "theme": "Generative AI",
+        "theme_intensity": 0.0034
+      },
+      {
+        "year": 2025,
+        "theme": "Supply Chain Resilience",
+        "theme_intensity": 0.0137
+      },
+      {
+        "year": 2025,
+        "theme": "Sustainability / ESG",
+        "theme_intensity": 0.0116
+      },
+      {
+        "year": 2025,
+        "theme": "Workforce Transformation",
+        "theme_intensity": 0.0077
+      },
+      {
+        "year": 2026,
+        "theme": "Artificial Intelligence",
+        "theme_intensity": 0.0073
+      },
+      {
+        "year": 2026,
+        "theme": "Automation",
+        "theme_intensity": 0.0044
+      },
+      {
+        "year": 2026,
+        "theme": "Cloud Transformation",
+        "theme_intensity": 0.0089
+      },
+      {
+        "year": 2026,
+        "theme": "Cost Optimization",
+        "theme_intensity": 0.0192
+      },
+      {
+        "year": 2026,
+        "theme": "Cybersecurity",
+        "theme_intensity": 0.0303
+      },
+      {
+        "year": 2026,
+        "theme": "Digital Transformation",
+        "theme_intensity": 0.0258
+      },
+      {
+        "year": 2026,
+        "theme": "Generative AI",
+        "theme_intensity": 0.0033
+      },
+      {
+        "year": 2026,
+        "theme": "Supply Chain Resilience",
+        "theme_intensity": 0.0132
+      },
+      {
+        "year": 2026,
+        "theme": "Sustainability / ESG",
+        "theme_intensity": 0.008
+      },
+      {
+        "year": 2026,
+        "theme": "Workforce Transformation",
+        "theme_intensity": 0.0078
+      }
+    ]
+  },
+  {
+    "company": "JPMorgan Chase",
+    "industry": "Financial Services",
+    "dominantTheme": "Supply Chain Resilience",
+    "themeMomentum": 49.7,
+    "consultingOpportunityScore": 32.6,
+    "strategicRiskScore": 14.7,
+    "emergingTheme": "Supply Chain Resilience",
+    "emergingThemeGrowthRate": 0.0,
+    "ticker": "JPM",
+    "signalFireScore": 25.4,
+    "readinessScore": 51.1,
+    "topKeywords": [
+      "0000019617",
+      "31 0000019617",
+      "12 31 0000019617",
+      "0000019617 gaap",
+      "31 0000019617 gaap",
+      "jpm",
+      "12 31",
+      "gaap",
+      "31",
+      "12"
+    ],
+    "themeEvolution": [
+      {
+        "year": 2025,
+        "theme": "Artificial Intelligence",
+        "theme_intensity": 0.0039
+      },
+      {
+        "year": 2025,
+        "theme": "Automation",
+        "theme_intensity": 0.0017
+      },
+      {
+        "year": 2025,
+        "theme": "Cloud Transformation",
+        "theme_intensity": 0.0036
+      },
+      {
+        "year": 2025,
+        "theme": "Cost Optimization",
+        "theme_intensity": 0.0123
+      },
+      {
+        "year": 2025,
+        "theme": "Cybersecurity",
+        "theme_intensity": 0.011
+      },
+      {
+        "year": 2025,
+        "theme": "Digital Transformation",
+        "theme_intensity": 0.007
+      },
+      {
+        "year": 2025,
+        "theme": "Generative AI",
+        "theme_intensity": 0.0032
+      },
+      {
+        "year": 2025,
+        "theme": "Supply Chain Resilience",
+        "theme_intensity": 0.0201
+      },
+      {
+        "year": 2025,
+        "theme": "Sustainability / ESG",
+        "theme_intensity": 0.0135
+      },
+      {
+        "year": 2025,
+        "theme": "Workforce Transformation",
+        "theme_intensity": 0.0031
+      }
+    ]
+  },
+  {
+    "company": "Exxon Mobil",
+    "industry": "Energy",
+    "dominantTheme": "Sustainability / ESG",
+    "themeMomentum": 36.8,
+    "consultingOpportunityScore": 31.4,
+    "strategicRiskScore": 12.3,
+    "emergingTheme": "Artificial Intelligence",
+    "emergingThemeGrowthRate": 19.2147,
+    "ticker": "XOM",
+    "signalFireScore": 32.1,
+    "readinessScore": 59.5,
+    "topKeywords": [
+      "0000034088",
+      "31 0000034088",
+      "12 31 0000034088",
+      "xom",
+      "12 31",
+      "0000034088 gaap",
+      "0000034088 xom",
+      "31 0000034088 gaap",
+      "31 0000034088 xom",
+      "31"
+    ],
+    "themeEvolution": [
+      {
+        "year": 2024,
+        "theme": "Artificial Intelligence",
+        "theme_intensity": 0.0037
+      },
+      {
+        "year": 2024,
+        "theme": "Automation",
+        "theme_intensity": 0.0024
+      },
+      {
+        "year": 2024,
+        "theme": "Cloud Transformation",
+        "theme_intensity": 0.0036
+      },
+      {
+        "year": 2024,
+        "theme": "Cost Optimization",
+        "theme_intensity": 0.0186
+      },
+      {
+        "year": 2024,
+        "theme": "Cybersecurity",
+        "theme_intensity": 0.0075
+      },
+      {
+        "year": 2024,
+        "theme": "Digital Transformation",
+        "theme_intensity": 0.0107
+      },
+      {
+        "year": 2024,
+        "theme": "Generative AI",
+        "theme_intensity": 0.0033
+      },
+      {
+        "year": 2024,
+        "theme": "Supply Chain Resilience",
+        "theme_intensity": 0.0067
+      },
+      {
+        "year": 2024,
+        "theme": "Sustainability / ESG",
+        "theme_intensity": 0.0291
+      },
+      {
+        "year": 2024,
+        "theme": "Workforce Transformation",
+        "theme_intensity": 0.0054
+      },
+      {
+        "year": 2025,
+        "theme": "Artificial Intelligence",
+        "theme_intensity": 0.0044
+      },
+      {
+        "year": 2025,
+        "theme": "Automation",
+        "theme_intensity": 0.0026
+      },
+      {
+        "year": 2025,
+        "theme": "Cloud Transformation",
+        "theme_intensity": 0.0039
+      },
+      {
+        "year": 2025,
+        "theme": "Cost Optimization",
+        "theme_intensity": 0.0194
+      },
+      {
+        "year": 2025,
+        "theme": "Cybersecurity",
+        "theme_intensity": 0.0086
+      },
+      {
+        "year": 2025,
+        "theme": "Digital Transformation",
+        "theme_intensity": 0.0112
+      },
+      {
+        "year": 2025,
+        "theme": "Generative AI",
+        "theme_intensity": 0.0033
+      },
+      {
+        "year": 2025,
+        "theme": "Supply Chain Resilience",
+        "theme_intensity": 0.0071
+      },
+      {
+        "year": 2025,
+        "theme": "Sustainability / ESG",
+        "theme_intensity": 0.0292
+      },
+      {
+        "year": 2025,
+        "theme": "Workforce Transformation",
+        "theme_intensity": 0.0053
+      }
+    ]
+  }
+]

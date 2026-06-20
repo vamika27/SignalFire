@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sage: #9caf88;
+  --color-light-sage: #dde8d2;
+  --color-deep-sage: #5f6f52;
+  --color-beige: #f5ebdd;
+  --color-cream: #fbf8f1;
+  --color-paper: #fffdf7;
+  --color-ink: #25251f;
+  --color-muted: #777568;
+  --color-line: #ddd2bf;
+  --color-accent: #b48a5a;
+}
+
+:root {
+  --sage: #9caf88;
+  --light-sage: #dde8d2;
+  --deep-sage: #5f6f52;
+  --beige: #f5ebdd;
+  --cream: #fbf8f1;
+  --paper: #fffdf7;
+  --ink: #25251f;
+  --muted: #777568;
+  --line: #ddd2bf;
+  --accent: #b48a5a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 10% 10%, rgba(221, 232, 210, 0.75), transparent 26rem),
+    radial-gradient(circle at 90% 0%, rgba(245, 235, 221, 0.9), transparent 28rem),
+    linear-gradient(135deg, var(--cream), #f8f1e7 55%, #eef4e8);
+  color: var(--ink);
+  font-family: var(--font-body), Inter, sans-serif;
+}
+
+body::before {
+  background-image:
+    linear-gradient(rgba(37, 37, 31, 0.028) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37, 37, 31, 0.02) 1px, transparent 1px);
+  background-size: 22px 22px;
+  content: "";
+  inset: 0;
+  pointer-events: none;
+  position: fixed;
+  z-index: 0;
+}
+
+body::after {
+  background-image: radial-gradient(rgba(37, 37, 31, 0.055) 0.7px, transparent 0.7px);
+  background-size: 6px 6px;
+  content: "";
+  inset: 0;
+  opacity: 0.35;
+  pointer-events: none;
+  position: fixed;
+  z-index: 0;
+}
+
+main,
+nav,
+footer {
+  position: relative;
+  z-index: 1;
+}
+
+::selection {
+  background: rgba(180, 138, 90, 0.28);
+}
+
+.font-heading {
+  font-family: var(--font-heading), Georgia, serif;
+}
+
+.font-mono {
+  font-family: var(--font-mono), monospace;
+}
+
+.paper-card {
+  background:
+    linear-gradient(145deg, rgba(255, 253, 247, 0.96), rgba(251, 248, 241, 0.9)),
+    var(--paper);
+  border: 1px solid rgba(221, 210, 191, 0.9);
+  box-shadow: 0 18px 55px rgba(95, 111, 82, 0.12);
+}
+
+.clipboard {
+  position: relative;
+}
+
+.clipboard::before {
+  background: linear-gradient(180deg, #e8dac6, #caa878);
+  border: 1px solid rgba(103, 82, 51, 0.18);
+  border-radius: 999px 999px 16px 16px;
+  box-shadow: inset 0 -6px 14px rgba(37, 37, 31, 0.08);
+  content: "";
+  height: 42px;
+  left: 50%;
+  position: absolute;
+  top: -22px;
+  transform: translateX(-50%);
+  width: 170px;
+  z-index: 2;
+}
+
+.memo-rule {
+  background-image: linear-gradient(to right, rgba(180, 138, 90, 0.42) 45%, transparent 45%);
+  background-size: 16px 1px;
+  height: 1px;
+}
+
+.grain-mask {
+  background:
+    radial-gradient(circle at 20% 25%, rgba(156, 175, 136, 0.26), transparent 18rem),
+    radial-gradient(circle at 84% 22%, rgba(180, 138, 90, 0.18), transparent 17rem);
+}

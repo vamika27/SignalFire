@@ -160,8 +160,8 @@ The Streamlit application includes six executive-grade pages:
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt
-python -m spacy download en_core_web_sm
+python3 -m pip install -r requirements.txt
+python3 -m spacy download en_core_web_sm
 ```
 
 Set an SEC-compliant user agent:
@@ -173,13 +173,13 @@ export SIGNALFIRE_SEC_USER_AGENT="Your Name your.email@example.com"
 Run the real-data pipeline:
 
 ```bash
-python -m signalfire.src.pipeline --max-filings 2
+python3 -m signalfire.src.sec_pipeline --max-filings 2
 ```
 
 Optional transcript and layoffs inputs:
 
 ```bash
-python -m signalfire.src.pipeline \
+python3 -m signalfire.src.sec_pipeline \
   --max-filings 2 \
   --transcripts data/raw/motley_fool_transcripts.csv \
   --layoffs-source data/raw/layoffs.csv
@@ -190,6 +190,46 @@ Launch the dashboard:
 ```bash
 streamlit run signalfire/dashboard/app.py
 ```
+
+## Vercel Frontend Dashboard
+
+SignalFire also includes a polished Next.js dashboard in `frontend/`. It reads
+static JSON from `frontend/public/data`, generated from the existing real
+processed outputs in `data/processed`.
+
+Export frontend JSON:
+
+```bash
+python3 -m signalfire.src.export_frontend_data
+```
+
+Run the Next.js dashboard locally:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Build for production:
+
+```bash
+cd frontend
+npm run build
+```
+
+Deploy to Vercel:
+
+1. Push the repository to GitHub.
+2. Create a new Vercel project.
+3. Set the Vercel root directory to `frontend`.
+4. Use the default commands:
+   - Install command: `npm install`
+   - Build command: `npm run build`
+   - Output directory: Next.js default
+
+Current frontend data is a smoke-test export, not a finished market-wide
+analysis. No synthetic analytics data is used.
 
 ## Example Insights
 
@@ -217,8 +257,13 @@ signalfire/
     trend_analysis.py
     visualizations.py
     pipeline.py
+    sec_pipeline.py
+    export_frontend_data.py
   dashboard/
     app.py
+frontend/
+  public/data/
+  src/app/
 notebooks/
   01_data_exploration.ipynb
   02_nlp_analysis.ipynb
