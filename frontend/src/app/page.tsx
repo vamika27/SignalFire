@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import {
   ArrowRight,
   BarChart3,
@@ -513,6 +513,44 @@ function MetricLine({ label, value }: { label: string; value: string }) {
   );
 }
 
+function ScaleGuide({
+  title,
+  unit,
+  min,
+  max,
+  lowLabel,
+  midLabel,
+  highLabel
+}: {
+  title: string;
+  unit: string;
+  min: string;
+  max: string;
+  lowLabel: string;
+  midLabel: string;
+  highLabel: string;
+}) {
+  return (
+    <div className="rounded-[1.5rem] border border-[var(--line)] bg-[rgba(255,253,247,0.74)] p-4 shadow-card">
+      <div className="flex items-start justify-between gap-3">
+        <div>
+          <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-[var(--deep-sage)]">{title}</p>
+          <p className="mt-1 text-sm leading-5 text-[var(--muted)]">{unit}</p>
+        </div>
+        <span className="rounded-full bg-[var(--beige)] px-3 py-1 font-mono text-[11px] text-[var(--deep-sage)]">
+          {min} → {max}
+        </span>
+      </div>
+      <div className="mt-4 h-2 rounded-full bg-gradient-to-r from-[rgba(221,232,210,0.75)] via-[var(--sage)] to-[var(--deep-sage)]" />
+      <div className="mt-3 grid grid-cols-3 gap-2 text-[11px] leading-4 text-[var(--muted)]">
+        <span>{lowLabel}</span>
+        <span className="text-center">{midLabel}</span>
+        <span className="text-right">{highLabel}</span>
+      </div>
+    </div>
+  );
+}
+
 function OpportunityRadar({ rows }: { rows: RadarRow[] }) {
   const [theme, setTheme] = useState("All themes");
   const [company, setCompany] = useState("");
@@ -521,6 +559,10 @@ function OpportunityRadar({ rows }: { rows: RadarRow[] }) {
   );
   const [hoveredRank, setHoveredRank] = useState<number | null>(null);
   const themes = useMemo(() => ["All themes", ...Array.from(new Set(rows.map((row) => row.theme))).sort()], [rows]);
+  const scoreRange = useMemo(() => {
+    const scores = rows.map((row) => row.consulting_opportunity_score);
+    return { min: Math.min(...scores), max: Math.max(...scores) };
+  }, [rows]);
 
   const filtered = useMemo(() => {
     return rows
@@ -530,6 +572,7 @@ function OpportunityRadar({ rows }: { rows: RadarRow[] }) {
       .slice(0, 16)
       .map((row, index) => ({ ...row, visibleRank: index + 1 }));
   }, [rows, theme, company, sortKey]);
+  const activeRow = filtered.find((row) => row.visibleRank === hoveredRank) ?? filtered[0];
 
   return (
     <Section id="radar" eyebrow="Opportunity radar" title="Ranked company signals for consulting opportunity.">
@@ -572,6 +615,34 @@ function OpportunityRadar({ rows }: { rows: RadarRow[] }) {
             </select>
           </label>
         </div>
+        <div className="grid gap-4 border-b border-[var(--line)] bg-[rgba(255,253,247,0.56)] p-5 lg:grid-cols-[1fr_340px]">
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={activeRow ? `${activeRow.ticker}-${activeRow.theme}` : "empty"}
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -8 }}
+              transition={{ duration: 0.22, ease: "easeOut" }}
+              className="rounded-[1.5rem] border border-[var(--line)] bg-[var(--paper)] p-4"
+            >
+              <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-[var(--deep-sage)]">
+                Hover insight
+              </p>
+              <p className="mt-2 text-sm leading-6 text-[var(--muted)]">
+                {activeRow?.explanation ?? "Hover a ranked company row to inspect why it appears in the radar."}
+              </p>
+            </motion.div>
+          </AnimatePresence>
+          <ScaleGuide
+            title="Opportunity score scale"
+            unit="Index points from 0 to 100; higher means stronger consulting opportunity in this smoke test."
+            min={formatNumber(scoreRange.min, 1)}
+            max={formatNumber(scoreRange.max, 1)}
+            lowLabel="Lower priority"
+            midLabel="Watchlist"
+            highLabel="Highest signal"
+          />
+        </div>
         <div className="overflow-x-auto">
           <table className="min-w-full border-collapse text-left">
             <thead>
@@ -591,17 +662,12 @@ function OpportunityRadar({ rows }: { rows: RadarRow[] }) {
                   key={`${row.ticker}-${row.theme}`}
                   onMouseEnter={() => setHoveredRank(row.visibleRank)}
                   onMouseLeave={() => setHoveredRank(null)}
-                  className="group border-b border-[rgba(221,210,191,0.7)] align-top transition hover:bg-[rgba(221,232,210,0.38)]"
+                  className="group border-b border-[rgba(221,210,191,0.7)] align-top transition-colors duration-300 hover:bg-[rgba(221,232,210,0.38)]"
                 >
                   <td className="px-5 py-4 font-mono text-sm text-[var(--deep-sage)]">#{row.visibleRank}</td>
                   <td className="px-5 py-4">
                     <p className="font-semibold">{row.company}</p>
                     <p className="font-mono text-xs text-[var(--muted)]">{row.ticker}</p>
-                    {hoveredRank === row.visibleRank ? (
-                      <p className="mt-3 max-w-lg rounded-2xl bg-[var(--paper)] p-3 text-sm leading-6 text-[var(--muted)] shadow-card">
-                        {row.explanation}
-                      </p>
-                    ) : null}
                   </td>
                   <td className="px-5 py-4 text-sm text-[var(--muted)]">{row.industry}</td>
                   <td className="px-5 py-4">
@@ -623,8 +689,28 @@ function OpportunityRadar({ rows }: { rows: RadarRow[] }) {
 }
 
 function ThemeMomentumBoard({ themes }: { themes: ThemeTrend[] }) {
+  const scoreRange = useMemo(() => {
+    const scores = themes.map((theme) => theme.score);
+    return { min: Math.min(...scores), max: Math.max(...scores) };
+  }, [themes]);
+
   return (
     <Section id="themes" eyebrow="Theme momentum board" title="Strategic priorities by momentum signal.">
+      <div className="mb-6 grid gap-4 lg:grid-cols-[1fr_360px]">
+        <p className="max-w-3xl text-lg leading-8 text-[var(--muted)]">
+          Theme cards use a 0-100 strategic momentum index. The mini-lines show directional theme intensity across
+          available SEC filing years in the smoke-test output.
+        </p>
+        <ScaleGuide
+          title="Theme momentum scale"
+          unit="Index points from 0 to 100; higher means the theme is accelerating more strongly."
+          min={formatNumber(scoreRange.min, 1)}
+          max={formatNumber(scoreRange.max, 1)}
+          lowLabel="Lower momentum"
+          midLabel="Developing"
+          highLabel="Accelerating"
+        />
+      </div>
       <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
         {themes.map((theme, index) => (
           <motion.article
@@ -733,6 +819,17 @@ function CompanyProfileSheet({ companies, keywords }: { companies: CompanyProfil
               <MetricLine label="Risk" value={formatNumber(company.strategicRiskScore, 1)} />
             </div>
           </div>
+          <div className="mt-5">
+            <ScaleGuide
+              title="Profile score scale"
+              unit="Opportunity, readiness, risk, and SignalFire values use 0-100 index points."
+              min="0"
+              max="100"
+              lowLabel="Lower"
+              midLabel="Moderate"
+              highLabel="Higher"
+            />
+          </div>
         </div>
         <div className="clipboard paper-card rounded-[2.25rem] p-6 pt-12 md:p-8 md:pt-14">
           <div className="grid gap-6 xl:grid-cols-[1fr_0.8fr]">
@@ -791,7 +888,11 @@ function CompanyProfileSheet({ companies, keywords }: { companies: CompanyProfil
 function IndustryIntelligence({ industry }: { industry: IndustryPayload }) {
   const themes = useMemo(() => Array.from(new Set(industry.rows.map((row) => row.theme))).slice(0, 10), [industry]);
   const industries = useMemo(() => Array.from(new Set(industry.rows.map((row) => row.industry))).slice(0, 8), [industry]);
-  const maxIntensity = Math.max(...industry.rows.map((row) => row.theme_intensity), 0.001);
+  const intensityRange = useMemo(() => {
+    const values = industry.rows.map((row) => row.theme_intensity);
+    return { min: Math.min(...values), max: Math.max(...values) };
+  }, [industry.rows]);
+  const maxIntensity = Math.max(intensityRange.max, 0.001);
 
   const lookup = useMemo(() => {
     const map = new Map<string, number>();
@@ -804,45 +905,69 @@ function IndustryIntelligence({ industry }: { industry: IndustryPayload }) {
 
   return (
     <Section id="industries" eyebrow="Industry intelligence" title="Theme penetration across sectors.">
-      <div className="grid gap-6 xl:grid-cols-[0.92fr_1.08fr]">
-        <div className="paper-card rounded-[2rem] p-6">
-          <p className="font-mono text-xs uppercase tracking-[0.22em] text-[var(--muted)]">Fastest-moving industries</p>
-          <div className="mt-4 h-80">
-            <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={industry.fastestIndustries.slice(0, 8)} layout="vertical" margin={{ left: 18 }}>
-                <CartesianGrid stroke="#DDD2BF" strokeDasharray="4 4" horizontal={false} />
-                <XAxis type="number" hide />
-                <YAxis dataKey="industry" type="category" width={128} tick={{ fill: "#777568", fontSize: 12 }} />
-                <Tooltip
-                  formatter={(value) => [formatNumber(Number(value), 4), "Average intensity"]}
-                  contentStyle={{ background: "#FFFDF7", border: "1px solid #DDD2BF", borderRadius: 16 }}
-                />
-                <Bar dataKey="avgIntensity" radius={[0, 10, 10, 0]}>
-                  {industry.fastestIndustries.slice(0, 8).map((_, index) => (
-                    <Cell key={index} fill={chartColors[index % chartColors.length]} />
-                  ))}
-                </Bar>
-              </BarChart>
-            </ResponsiveContainer>
+      <div className="grid gap-6">
+        <div className="grid gap-6 lg:grid-cols-[1fr_360px]">
+          <div className="paper-card rounded-[2rem] p-6">
+            <p className="font-mono text-xs uppercase tracking-[0.22em] text-[var(--muted)]">Fastest-moving industries</p>
+            <p className="mt-2 text-sm leading-6 text-[var(--muted)]">
+              Bars show average strategic theme intensity by industry across the processed SEC smoke-test filings.
+            </p>
+            <div className="mt-4 h-80">
+              <ResponsiveContainer width="100%" height="100%">
+                <BarChart data={industry.fastestIndustries.slice(0, 8)} layout="vertical" margin={{ left: 22, right: 22 }}>
+                  <CartesianGrid stroke="#DDD2BF" strokeDasharray="4 4" horizontal={false} />
+                  <XAxis type="number" hide />
+                  <YAxis dataKey="industry" type="category" width={170} tick={{ fill: "#777568", fontSize: 12 }} />
+                  <Tooltip
+                    formatter={(value) => [formatNumber(Number(value), 4), "Average intensity"]}
+                    contentStyle={{ background: "#FFFDF7", border: "1px solid #DDD2BF", borderRadius: 16 }}
+                  />
+                  <Bar dataKey="avgIntensity" radius={[0, 10, 10, 0]}>
+                    {industry.fastestIndustries.slice(0, 8).map((_, index) => (
+                      <Cell key={index} fill={chartColors[index % chartColors.length]} />
+                    ))}
+                  </Bar>
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
           </div>
+          <ScaleGuide
+            title="Theme intensity unit"
+            unit="TF-IDF/cosine similarity intensity. Higher values mean the theme appears more strongly in disclosure language."
+            min={formatNumber(intensityRange.min, 4)}
+            max={formatNumber(intensityRange.max, 4)}
+            lowLabel="Faint signal"
+            midLabel="Visible signal"
+            highLabel="Strongest signal"
+          />
         </div>
         <div className="paper-card rounded-[2rem] p-6">
-          <div className="mb-5 flex items-center gap-3">
-            <TableProperties className="h-5 w-5 text-[var(--accent)]" />
-            <p className="font-mono text-xs uppercase tracking-[0.22em] text-[var(--muted)]">Intensity heatmap</p>
+          <div className="mb-5 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+            <div className="flex items-center gap-3">
+              <TableProperties className="h-5 w-5 text-[var(--accent)]" />
+              <p className="font-mono text-xs uppercase tracking-[0.22em] text-[var(--muted)]">Intensity heatmap</p>
+            </div>
+            <p className="text-sm text-[var(--muted)]">Darker cells indicate stronger theme intensity.</p>
           </div>
-          <div className="overflow-x-auto">
-            <div className="min-w-[820px]">
-              <div className="grid grid-cols-[170px_repeat(10,minmax(92px,1fr))] gap-1">
-                <div />
+          <div className="overflow-x-auto pb-2">
+            <div className="min-w-[1340px]">
+              <div className="grid grid-cols-[190px_repeat(10,minmax(108px,1fr))] gap-1.5">
+                <div className="rounded-xl bg-[rgba(245,235,221,0.55)] px-3 py-3 font-mono text-[10px] uppercase tracking-[0.16em] text-[var(--muted)]">
+                  Industry
+                </div>
                 {themes.map((theme) => (
-                  <div key={theme} className="truncate rounded-xl bg-[var(--beige)] px-2 py-2 text-center text-[11px] text-[var(--muted)]">
+                  <div
+                    key={theme}
+                    className="flex min-h-14 items-center justify-center rounded-xl bg-[var(--beige)] px-2 py-2 text-center text-[11px] leading-4 text-[var(--muted)]"
+                  >
                     {theme}
                   </div>
                 ))}
                 {industries.map((industryName) => (
                   <div key={industryName} className="contents">
-                    <div className="rounded-xl bg-[rgba(255,253,247,0.7)] px-3 py-3 text-sm font-semibold">{industryName}</div>
+                    <div className="flex min-h-14 items-center rounded-xl bg-[rgba(255,253,247,0.78)] px-3 py-3 text-sm font-semibold leading-5">
+                      {industryName}
+                    </div>
                     {themes.map((theme) => {
                       const value = lookup.get(`${industryName}-${theme}`) ?? 0;
                       const opacity = 0.16 + (value / maxIntensity) * 0.78;
@@ -850,7 +975,7 @@ function IndustryIntelligence({ industry }: { industry: IndustryPayload }) {
                         <div
                           key={`${industryName}-${theme}`}
                           title={`${industryName} / ${theme}: ${formatNumber(value, 4)}`}
-                          className="rounded-xl border border-[rgba(221,210,191,0.55)] px-2 py-3 text-center font-mono text-[11px] text-[var(--ink)]"
+                          className="flex min-h-14 items-center justify-center rounded-xl border border-[rgba(221,210,191,0.55)] px-2 py-3 text-center font-mono text-[11px] text-[var(--ink)]"
                           style={{ backgroundColor: `rgba(156, 175, 136, ${opacity})` }}
                         >
                           {formatNumber(value, 3)}
