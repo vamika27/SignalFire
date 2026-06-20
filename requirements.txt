@@ -11,5 +11,6 @@ sentence-transformers
 beautifulsoup4
 requests
 lxml
+html5lib
 pyarrow
 nbformat
