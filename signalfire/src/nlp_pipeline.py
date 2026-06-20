@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 import re
 from collections import Counter
 from dataclasses import dataclass
@@ -188,27 +189,33 @@ def _entity_counts(rows: Iterable[dict[str, object]]) -> pd.DataFrame:
 
 
 def topic_model(documents: pd.DataFrame, n_topics: int = 8, top_n: int = 10) -> pd.DataFrame:
-    """Create explainable topics using BERTopic when available, otherwise NMF."""
+    """Create explainable topics using NMF or opt-in BERTopic.
+
+    Set SIGNALFIRE_TOPIC_MODEL=bertopic to use BERTopic. The NMF default keeps
+    local runs fast and avoids implicit model downloads in constrained
+    environments while still satisfying the same topic-table contract.
+    """
 
     if documents.empty:
         return pd.DataFrame(columns=["topic_id", "term", "weight", "model"])
 
     texts = documents["text"].tolist()
-    try:
-        from bertopic import BERTopic
+    if os.getenv("SIGNALFIRE_TOPIC_MODEL", "nmf").lower() == "bertopic":
+        try:
+            from bertopic import BERTopic
 
-        model = BERTopic(verbose=False, calculate_probabilities=False, min_topic_size=2)
-        topics, _ = model.fit_transform(texts)
-        rows: list[dict[str, object]] = []
-        for topic_id in sorted(set(topics)):
-            if topic_id == -1:
-                continue
-            for term, weight in model.get_topic(topic_id)[:top_n]:
-                rows.append({"topic_id": topic_id, "term": term, "weight": float(weight), "model": "BERTopic"})
-        if rows:
-            return pd.DataFrame(rows)
-    except Exception:
-        pass
+            model = BERTopic(verbose=False, calculate_probabilities=False, min_topic_size=2)
+            topics, _ = model.fit_transform(texts)
+            rows: list[dict[str, object]] = []
+            for topic_id in sorted(set(topics)):
+                if topic_id == -1:
+                    continue
+                for term, weight in model.get_topic(topic_id)[:top_n]:
+                    rows.append({"topic_id": topic_id, "term": term, "weight": float(weight), "model": "BERTopic"})
+            if rows:
+                return pd.DataFrame(rows)
+        except Exception:
+            pass
 
     vectorizer = TfidfVectorizer(stop_words="english", ngram_range=(1, 2), max_features=8000, min_df=1)
     matrix = vectorizer.fit_transform(texts)
