@@ -252,21 +252,25 @@ def load_earnings_transcripts(paths: Iterable[Path]) -> pd.DataFrame:
 def load_layoffs(path_or_url: str | Path | None = None) -> pd.DataFrame:
     """Load Layoffs.fyi data from a local CSV or public HTML table."""
 
+    empty = pd.DataFrame(columns=["company", "date"])
     if path_or_url is None:
         path_or_url = os.getenv("SIGNALFIRE_LAYOFFS_SOURCE", "https://layoffs.fyi")
     source = str(path_or_url)
     if Path(source).exists():
         frame = pd.read_csv(source)
     else:
-        tables = pd.read_html(source)
+        try:
+            tables = pd.read_html(source)
+        except (ImportError, ValueError):
+            return empty
         if not tables:
-            return pd.DataFrame()
+            return empty
         frame = tables[0]
 
     normalized = {column: re.sub(r"[^a-z0-9]+", "_", str(column).strip().lower()).strip("_") for column in frame.columns}
     frame = frame.rename(columns=normalized)
     if "company" not in frame.columns:
-        return pd.DataFrame()
+        return empty
     if "date" in frame.columns:
         frame["date"] = pd.to_datetime(frame["date"], errors="coerce")
     return frame

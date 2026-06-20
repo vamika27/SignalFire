@@ -159,12 +159,12 @@ def executive_overview(tables: dict[str, pd.DataFrame]) -> None:
             .assign(theme_label=lambda frame: frame["theme"])
             .nlargest(8, "avg_momentum")
         )
-        st.plotly_chart(top_bar(themes, "avg_momentum", "theme_label", "Top emerging themes"), use_container_width=True)
+        st.plotly_chart(top_bar(themes, "avg_momentum", "theme_label", "Top emerging themes"), width="stretch")
     with right:
         leaders = scorecard.nlargest(8, "consulting_opportunity_score")
         st.plotly_chart(
             top_bar(leaders, "consulting_opportunity_score", "company", "Consulting opportunity leaders", "strategic_momentum_score"),
-            use_container_width=True,
+            width="stretch",
         )
 
     left, right = st.columns(2)
@@ -176,7 +176,7 @@ def executive_overview(tables: dict[str, pd.DataFrame]) -> None:
         )
         st.plotly_chart(
             top_bar(industry_growth, "theme_intensity", "industry", "Fastest shifting industries"),
-            use_container_width=True,
+            width="stretch",
         )
     with right:
         momentum = signal_scores.nlargest(8, "strategic_momentum_score")
@@ -191,7 +191,7 @@ def executive_overview(tables: dict[str, pd.DataFrame]) -> None:
                 ]
             ],
             hide_index=True,
-            use_container_width=True,
+            width="stretch",
         )
 
 
@@ -204,7 +204,7 @@ def theme_explorer(tables: dict[str, pd.DataFrame]) -> None:
     col1, col2 = st.columns([1, 2])
     theme = col1.selectbox("Theme", themes)
     selected_companies = col2.multiselect("Compare companies", companies, default=companies[: min(4, len(companies))])
-    st.plotly_chart(theme_trend_line(scores, theme, selected_companies), use_container_width=True)
+    st.plotly_chart(theme_trend_line(scores, theme, selected_companies), width="stretch")
     st.markdown("#### Current leaders")
     st.dataframe(
         scorecard.loc[scorecard["theme"].eq(theme)]
@@ -219,7 +219,7 @@ def theme_explorer(tables: dict[str, pd.DataFrame]) -> None:
             ]
         ],
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
 
 
@@ -252,13 +252,13 @@ def company_intelligence(tables: dict[str, pd.DataFrame]) -> None:
     col1, col2, col3 = st.columns(3)
     top_row = company_card.iloc[0]
     with col1:
-        st.plotly_chart(score_gauge(top_row["consulting_opportunity_score"], "Opportunity"), use_container_width=True)
+        st.plotly_chart(score_gauge(top_row["consulting_opportunity_score"], "Opportunity"), width="stretch")
     with col2:
-        st.plotly_chart(score_gauge(top_row["strategic_momentum_score"], "Momentum"), use_container_width=True)
+        st.plotly_chart(score_gauge(top_row["strategic_momentum_score"], "Momentum"), width="stretch")
     with col3:
-        st.plotly_chart(score_gauge(top_row["transformation_readiness_score"], "Readiness"), use_container_width=True)
+        st.plotly_chart(score_gauge(top_row["transformation_readiness_score"], "Readiness"), width="stretch")
 
-    st.plotly_chart(company_theme_area(scores, company), use_container_width=True)
+    st.plotly_chart(company_theme_area(scores, company), width="stretch")
     st.markdown("#### Theme scorecard")
     st.dataframe(
         company_card[
@@ -272,7 +272,7 @@ def company_intelligence(tables: dict[str, pd.DataFrame]) -> None:
             ]
         ],
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
 
 
@@ -281,7 +281,7 @@ def industry_intelligence(tables: dict[str, pd.DataFrame]) -> None:
     industry = tables["industry_trends"]
     years = sorted(industry["year"].dropna().unique())
     selected_year = st.selectbox("Year", years, index=len(years) - 1)
-    st.plotly_chart(industry_heatmap(industry, selected_year), use_container_width=True)
+    st.plotly_chart(industry_heatmap(industry, selected_year), width="stretch")
 
     st.markdown("#### Theme penetration by industry")
     st.dataframe(
@@ -289,7 +289,7 @@ def industry_intelligence(tables: dict[str, pd.DataFrame]) -> None:
         .sort_values("theme_intensity", ascending=False)
         .head(30),
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
 
 
@@ -304,7 +304,7 @@ def opportunity_radar(tables: dict[str, pd.DataFrame]) -> None:
         "Cost Optimization",
     ]
     theme = st.selectbox("Rank opportunity by theme", priority_themes)
-    st.plotly_chart(opportunity_scatter(scorecard, theme), use_container_width=True)
+    st.plotly_chart(opportunity_scatter(scorecard, theme), width="stretch")
     st.dataframe(
         scorecard.loc[scorecard["theme"].eq(theme)]
         .nlargest(25, "consulting_opportunity_score")[
@@ -320,7 +320,7 @@ def opportunity_radar(tables: dict[str, pd.DataFrame]) -> None:
             ]
         ],
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
 
 
@@ -361,7 +361,7 @@ def methodology(tables: dict[str, pd.DataFrame]) -> None:
     terms = tables["theme_terms"]
     if not terms.empty:
         st.markdown("#### Auditable theme seed terms")
-        st.dataframe(terms.head(100), hide_index=True, use_container_width=True)
+        st.dataframe(terms.head(100), hide_index=True, width="stretch")
 
 
 def main() -> None:
