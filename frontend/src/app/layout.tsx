@@ -22,7 +22,17 @@ const plexMono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   title: "SignalFire | Strategic Priority Intelligence",
   description:
-    "A strategic intelligence product that surfaces emerging corporate priorities from real SEC disclosures."
+    "A strategic intelligence product that surfaces emerging corporate priorities from real SEC disclosures.",
+  icons: {
+    icon: [
+      {
+        url: "/favicon.svg",
+        type: "image/svg+xml"
+      }
+    ],
+    shortcut: "/favicon.svg",
+    apple: "/apple-touch-icon.svg"
+  }
 };
 
 export default function RootLayout({
