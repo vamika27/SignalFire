@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import os
 import re
+import warnings
 from collections import Counter
 from dataclasses import dataclass
 from typing import Iterable
@@ -11,6 +12,7 @@ from typing import Iterable
 import numpy as np
 import pandas as pd
 from sklearn.decomposition import NMF
+from sklearn.exceptions import ConvergenceWarning
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 from signalfire.src.theme_classifier import ThemeClassifier
@@ -221,7 +223,9 @@ def topic_model(documents: pd.DataFrame, n_topics: int = 8, top_n: int = 10) -> 
     matrix = vectorizer.fit_transform(texts)
     topic_count = max(1, min(n_topics, matrix.shape[0], matrix.shape[1] - 1))
     nmf = NMF(n_components=topic_count, init="nndsvda", random_state=42, max_iter=1000, tol=1e-3)
-    nmf.fit(matrix)
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore", ConvergenceWarning)
+        nmf.fit(matrix)
     terms = np.array(vectorizer.get_feature_names_out())
     rows = []
     for topic_idx, components in enumerate(nmf.components_):
