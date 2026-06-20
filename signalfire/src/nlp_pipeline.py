@@ -63,7 +63,7 @@ def extract_keywords(documents: pd.DataFrame, max_features: int = 5000, top_n: i
         stop_words="english",
         ngram_range=(1, 3),
         min_df=1,
-        max_df=0.9,
+        max_df=1.0,
         max_features=max_features,
     )
     matrix = vectorizer.fit_transform(documents["text"])
